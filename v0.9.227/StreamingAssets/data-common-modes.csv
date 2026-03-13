@@ -1,7 +1,0 @@
-mode,allySelectionMax,allySelectionRoleMax,allyRankMax,allyStartCount,truckMaxHealth,rankHealthMultiplier,rankAttackMultiplier,luckyProbability,jackpotProbability,awakeningHealthMultiplier,awakeningAttackMultiplier,awakeningRouletteStages,supplyProbabilityCurve,supplyRarityWeights,supplyCardCount,waveHealPercent,reviveHealPercent,wavePreparationTime,autoSelectionDelay,firstWaveCardSelectionCount,isSinglePlayer,tankLuckyProbability,tankJackpotProbability,dpsLuckyProbability,dpsJackpotProbability,supportLuckyProbability,supportJackpotProbability,giveAwakeningStarToTank,giveAwakeningStarToDPS,giveAwakeningStarToSupport,truckDamageMultiplier
-Normal,6,3,6,2,1000,1,1,25,5,2,2.5,6|11,2:0.2|100:0.65,Legendary:5|Epic:15|Rare:80,3,1,1,20,0.5,1,1,25,5,25,5,25,5,0,0,0,1
-Hard,6,3,6,2,1000,1,1,25,5,2,2.5,6|11,2:0.2|100:0.65,Legendary:5|Epic:15|Rare:80,3,1,1,20,0.5,1,1,25,5,25,5,25,5,0,0,0,1
-Gold,6,3,6,0,1000,0.5,0.5,15,5,1.5,2,,2:0.2|100:0.65,Legendary:5|Epic:15|Rare:80,3,1,1,20,0.5,6,1,15,5,15,5,15,5,0,0,0,10
-Speed,6,3,6,0,1000,0.5,0.5,15,5,1.5,2,,2:0.2|100:0.65,Legendary:5|Epic:15|Rare:80,3,1,1,20,0.5,6,1,15,5,75,25,15,5,0,1,0,10
-Boss,6,3,6,0,1000,0.5,0.5,15,5,1.5,2,,2:0.2|100:0.65,Legendary:5|Epic:15|Rare:80,3,1,1,20,0.5,6,1,75,25,15,5,15,5,1,0,0,10
-Monster,6,3,6,0,1000,0.5,0.5,15,5,1.5,2,,2:0.2|100:0.65,Legendary:5|Epic:15|Rare:80,3,1,1,20,0.5,6,1,15,5,15,5,75,25,0,0,1,10
