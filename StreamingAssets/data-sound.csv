@@ -1,12 +1,12 @@
 SoundType,AddressableKey,Volume,use
-bgm_main,Assets/_game/Sound/Space Threat.wav,0.6,1
-bgm_battle,Assets/_game/Sound/Chase Through the City.wav,0.5,1
+bgm_main,Assets/_game/Sound/Space Threat.wav,0.5,1
+bgm_battle,Assets/_game/Sound/Chase Through the City.wav,0.4,1
 ui_open,Assets/_game/Sound/effect/open_DM-CGS-21.wav,1,1
 ui_close,Assets/_game/Sound/effect/close_DM-CGS-40.wav,1,1
 core_ally_new,Assets/_game/Sound/effect/CoreHeroMerge_Special & Powerup (20).wav,1,1
 core_ally_rank_up,Assets/_game/Sound/effect/CoreHeroMerge_Special & Powerup (20).wav,1,1
 core_select_show,Assets/_game/Sound/effect/005_magic_equip_in.mp3,1,1
-core_hit,Assets/_game/Sound/effect/hit_Plasma3.wav,0.5,1
+core_hit,Assets/_game/Sound/effect/hit_Plasma3.wav,0.3,1
 diff_toggle,Assets/_game/Sound/effect/diff_toggle.mp3,1,1
 match_done,Assets/_game/Sound/effect/match_done.mp3,1,1
 play_button,Assets/_game/Sound/effect/play_button.mp3,1,1
@@ -28,16 +28,16 @@ bgm_content_3,Assets/_game/Sound/18_BGM_Event3.wav,0.4,1
 bgm_content_4,Assets/_game/Sound/19_BGM_Event4.wav,0.4,1
 bgm_hard,Assets/_game/Sound/Chase Through the City.wav,1,1
 hero_awaken,Assets/_game/Sound/effect/awaken.mp3,1,0
-engine_start,Assets/_game/Sound/effect/car_engine_start.mp3,1,0
+engine_start,Assets/_game/Sound/effect/car_engine_start.mp3,1,1
 hero_levelup,Assets/_game/Sound/effect/levelup.wav,1,0
-buff_restore,Assets/_game/Sound/effect/health_restore.wav,1,0
-melee_attack,Assets/_game/Sound/effect/melee_attack.wav,0.4,0
-range_attack,Assets/_game/Sound/effect/range_attack.wav,0.4,0
+buff_restore,Assets/_game/Sound/effect/health_restore.wav,1,1
+melee_attack,Assets/_game/Sound/effect/melee_attack.wav,0.4,1
+range_attack,Assets/_game/Sound/effect/range_attack.wav,0.4,1
 buff_sheild,Assets/_game/Sound/effect/shelid.mp3,1,0
 runner_skill,Assets/_game/Sound/effect/Runner_sk.mp3,1,0
 protest_skill,Assets/_game/Sound/effect/protest_sk.wav,1,0
 commander_skill,Assets/_game/Sound/effect/commander_sk.wav,1,0
-ballerina_skill,Assets/_game/Sound/effect/Ballerina_sk.wav,1,0
+ballerina_skill,Assets/_game/Sound/effect/Ballerina_sk.wav,1,1
 pirate_skill,Assets/_game/Sound/effect/Pirate_sk.wav,1,0
 diver_skill,Assets/_game/Sound/effect/diver_sk.wav,1,0
 samurai_skill,Assets/_game/Sound/effect/samurai_sk.wav,1,0
@@ -49,3 +49,12 @@ squad_skill,Assets/_game/Sound/effect/squad_sk.mp3,1,0
 mad_skill,Assets/_game/Sound/effect/mad_sk.mp3,1,0
 haker_skill,Assets/_game/Sound/effect/hakcer_sk.mp3,1,0
 snake_skill,Assets/_game/Sound/effect/snake_sk.wav,1,0
+enemy_death,Assets/Polygon Arsenal/Sound/Wav/poly_explosion_antimatter.wav,1,1
+roulette_tick,Assets/_game/Sound/effect/tick_DM-CGS-20.wav,1,1
+roulette_congrat,Assets/_game/Sound/effect/congrat_DM-CGS-18.wav,1,0
+heal_sfx,Assets/Polygon Arsenal/Sound/Wav/poly_explosion_holy.wav,1,1
+result_fail,Assets/_game/Sound/effect/fail_DM-CGS-25.wav,1,1
+unit_jump,Assets/_game/Sound/effect/jump_DM-CGS-47.wav,1,1
+truck_landing,Assets/_game/Sound/effect/truck_landing_DM-CGS-48.wav,0.6,1
+missile_launch,Assets/Polygon Arsenal/Sound/Wav/poly_shoot_missile.wav,1,1
+tyre_skid,Assets/_game/Sound/effect/tyre_skid_04.wav,1,1
