@@ -1,52 +1,61 @@
-VfxType,AddressableKey,Scale,LifeTime,Looping,OffsetX,OffsetY,OffsetZ,
-unit_spawn,Assets/Polygon Arsenal/Prefabs/Combat/Regenerate/Normal/RegeneratePurple 1.prefab,1.0,2.0,false,0,0,0,
-unit_awakening,Assets/Polygon Arsenal/Prefabs/Combat/Nova/EnergyNova/EnergyNovaRed 1.prefab,1.0,2.0,false,0,0,0,
-unit_rankup,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Club Slam/ClubSlamBlue 1.prefab,0.8,2.5,false,0,-0.3,0,
-hit_basic,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C.prefab,0.7,0.5,false,0,0,0,
-hit_critical,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C (Red).prefab,1.0,0.5,false,0,0,0,
-instant_life_enchant,Assets/Polygon Arsenal/Prefabs/Combat/Enchant/LifeEnchant 1.prefab,0.7,1.0,false,0,0,0,
-instant_nova_red,Assets/Polygon Arsenal/Prefabs/Combat/Nova/LightningNova/LightningNovaRed 1.prefab,1.0,1.0,true,0,0,0,
-instant_nova_lightning,Assets/Polygon Arsenal/Prefabs/Combat/Nova/LightningWave/LightningWaveBlue 1.prefab,1.0,1.0,false,0,0,0,
-instant_explosion_fireball_blue,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Fireball/FireballExplosionBlue.prefab,1.0,1.0,true,0,0,0,
-instant_explosion_proton_purple,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Proton/ProtonExplosionPurple.prefab,1.0,1.0,false,0,0,0,
-instant_explosion_rocket_red,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket/RocketExplosionRed.prefab,1.0,1.0,false,0,0,0,
-projectile_storm_blue,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Storm/StormMissileBlue.prefab,1.0,1.0,false,0,0,0,
-projectile_lightning_yellow,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Lightning/V1/LightningMissileYellow.prefab,1.0,1.0,false,0,0,0,
-projectile_fireball_blue,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Fireball/FireballBlue.prefab,1.0,1.0,false,0,0,0,
-projectile_fireball_green,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Fireball/FireballGreen.prefab,1.0,1.0,false,0,0,0,
-projectile_proton_purple,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Proton/ProtonMissilePurple.prefab,1.0,1.0,false,0,0,0,
-projectile_acid_green,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Liquid/AcidMissile.prefab,1.5,1.0,false,0,0,0,
-trail_fire,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Trail.prefab,1.0,1.0,false,0,0,0,
-trail_lightning_blue,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Trail/SwordTrailLightningBlue.prefab,1.0,1.0,false,0,0,0,
-trail_lightning_red,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Trail/SwordTrailFire.prefab,1.0,1.0,false,0,0,0,
-debuff_stun,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Stun/Stun1 1.prefab,0.7,999,true,0,0.6,0,
-projectile_trail_lightning,Assets/Polygon Arsenal/Prefabs/Interactive/Trails/FloorTrails/LightningFloorTrail 1.prefab,1.0,1.0,false,0,0,0,
-instant_aura_nature,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Nature/NatureExplosionGreen 1.prefab,2,2.5,false,0,0,0,
-instant_slash,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Slash/Purple/SlashWidePurple 1.prefab,1.5,1.0,false,0,0,0,
-instant_teleport,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Mini/MiniExploShadow.prefab,1.5,2.5,false,0,0,0,
-instant_teleport_holy,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Mini/MiniExploHoly.prefab,1.5,2.5,false,0,0,0,
-passive_toxic,Assets/Polygon Arsenal/Prefabs/Combat/Aura/ElementalAura/ElementalAuraWater 1.prefab,1.5,999,false,0,0,0,
-debuff_confusion,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Stun/Stun2 1.prefab,0.7,999,true,0,0.6,0,
-instant_explosion_flash,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade Utility/FlashGrenadeExplosion.prefab,2.0,1.0,false,0,0,0,
-projectile_flash,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Grenade Utility/GrenadeFlash.prefab,3.0,1.0,false,0,0,0,
-projectile_bullet,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletBlue.prefab,1.0,1.0,false,0,0,0,
-projectile_rocket,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Rocket/RocketMissileRed.prefab,1.0,1.0,false,-0.6,0.2,0,
-heal_basic,Assets/Polygon Arsenal/Prefabs/Interactive/Healing/HealOnce.prefab,1.0,1.0,false,0,-0.6,0
-instant_heal,Assets/Polygon Arsenal/Prefabs/Interactive/Healing/HealOnce.prefab,1.0,1.0,false,0,-0.6,0,
-shield_basic,Assets/Polygon Arsenal/Prefabs/Interactive/Powerups/Icons Holo/PowerIconShield 1.prefab,2.0,1.0,false,0,0,0
-supply_stat_buff,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Holy/HolyBigExplosion.prefab,1.0,1.0,false,0,0,0
-projectile_stone,Assets/_game/Prefabs/Stone.prefab,1.0,1.0,false,0,0,0
-projectile_stone_big,Assets/_game/Prefabs/Stone.prefab,2.0,1.0,false,0,0,0
-instant_explosion_ground,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Stone/StoneExplosion.prefab,1.0,1.0,false,0,0,0
-projectile_trail_fire,Assets/Polygon Arsenal/Prefabs/Interactive/Trails/FloorTrails/FireFloorTrail 1.prefab,1.0,1.0,false,0,0,0
-debuff_burn,Assets/Polygon Arsenal/Prefabs/Combat/Death/DeathFire 1.prefab,0.7,999,true,-0.07,-0.43,0,
-instant_explosion_boom,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Nuke/NukeExplosionRed 1.prefab,1.0,1.0,false,0,0,0,
-buff_invincible,Assets/Polygon Arsenal/Prefabs/Combat/Shield/ShieldBlue 1.prefab,0.8,999,true,0,0.11,0
-instant_slash_poison,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Slash/Green/SlashSmallGreen 1.prefab,1.5,1.0,false,0,0,0,
-buff_attack_speed,Assets/Polygon Arsenal/Prefabs/Interactive/Sparkle/SparkleYellow 1.prefab,1.0,999,true,0,0,0
-debuff_bleed,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/BloodDebuff.prefab,2.0,999,true,0,0,0,
-projectile_doll,Assets/_game/Prefabs/Doll.prefab,1.0,999,true,0,0,0,
-summon_doll,Assets/_game/Prefabs/Doll.prefab,1.0,3.0,false,0,0,0,
-debuff_taunt,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/CurseMark/CurseMarkRed.prefab,0.7,999,true,0,0.6,0,
-projectile_shield,Assets/_game/Prefabs/Shield.prefab,1.0,999,true,0,0,0,
-enemy_death,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Mini/MiniExploAcid 1.prefab,3.0,2.0,false,0,0,0,
+VfxType,AddressableKey,Scale,LifeTime,Looping,OffsetX,OffsetY,OffsetZ,RotX,RotY,RotZ,use
+unit_spawn,Assets/Polygon Arsenal/Prefabs/Combat/Regenerate/Normal/RegeneratePurple 1.prefab,1.0,2.0,false,0,0,0,,,,1
+unit_awakening,Assets/Polygon Arsenal/Prefabs/Combat/Nova/EnergyNova/EnergyNovaRed 1.prefab,1.0,2.0,false,0,0,0,,,,1
+unit_rankup,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Club Slam/ClubSlamBlue 1.prefab,0.8,2.5,false,0,-0.3,0,,,,1
+hit_basic,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C.prefab,0.7,0.5,false,0,0,0,,,,1
+hit_critical,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C (Red).prefab,1.0,0.5,false,0,0,0,,,,1
+instant_life_enchant,Assets/Polygon Arsenal/Prefabs/Combat/Enchant/LifeEnchant 1.prefab,0.7,1.0,false,0,0,0,,,,1
+instant_nova_red,Assets/Polygon Arsenal/Prefabs/Combat/Nova/LightningNova/LightningNovaRed 1.prefab,1.0,1.0,true,0,0,0,,,,1
+instant_nova_lightning,Assets/Polygon Arsenal/Prefabs/Combat/Nova/LightningWave/LightningWaveBlue 1.prefab,1.0,1.0,false,0,0,0,,,,1
+instant_explosion_fireball_blue,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Fireball/FireballExplosionBlue.prefab,1.0,1.0,true,0,0,0,,,,1
+instant_explosion_proton_purple,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_WaterBall01_Red.prefab,1.0,1.0,false,0,0,0,,,,1
+instant_explosion_rocket_red,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Rocket/RocketExplosionRed.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_storm_blue,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Storm/StormMissileBlue.prefab,1.0,1.0,false,0,0,0,,,,0
+projectile_lightning_yellow,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Lightning/V1/LightningMissileYellow.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_fireball_blue,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Fireball/FireballBlue.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_fireball_green,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Fireball/FireballGreen.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_proton_purple,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Proton/ProtonMissilePurple.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_acid_green,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Liquid/AcidMissile.prefab,1.5,1.0,false,0,0,0,,,,1
+trail_fire,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Trail.prefab,1.0,1.0,false,0,0,0,,,,1
+trail_lightning_blue,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Trail/SwordTrailLightningBlue.prefab,10.0,1.0,false,0,0,0,,,,1
+trail_lightning_red,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Trail/SwordTrailFire.prefab,1.0,1.0,false,0,0,0,,,,1
+debuff_stun,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Stun/Stun1 1.prefab,0.7,999,true,0,0.6,0,,,,1
+projectile_trail_lightning,Assets/Polygon Arsenal/Prefabs/Interactive/Trails/FloorTrails/LightningFloorTrail 1.prefab,1.0,1.0,false,0,0,0,,,,1
+instant_aura_nature,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Nature/NatureExplosionGreen 1.prefab,2,2.5,false,0,0,0,,,,1
+instant_slash,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Slash/Purple/SlashWidePurple 1.prefab,1.5,1.0,false,0,0,0,,,,1
+instant_teleport,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Mini/MiniExploShadow.prefab,1.5,2.5,false,0,0,0,,,,1
+instant_teleport_holy,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Mini/MiniExploHoly.prefab,1.5,2.5,false,0,0,0,,,,1
+passive_toxic,Assets/Polygon Arsenal/Prefabs/Combat/Aura/ElementalAura/ElementalAuraWater 1.prefab,1.5,999,false,0,0,0,,,,1
+debuff_confusion,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Stun/Stun2 1.prefab,0.7,999,true,0,0.6,0,,,,1
+instant_explosion_flash,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade Utility/FlashGrenadeExplosion.prefab,2.0,1.0,false,0,0,0,,,,1
+projectile_flash,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Grenade Utility/GrenadeFlash.prefab,3.0,1.0,false,0,0,0,,,,1
+projectile_bullet,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletBlue 1.prefab,2.0,1.0,false,-0.3,0.2,0,-180,-90,0,1
+projectile_rocket,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Trail01_Orange 1.prefab,1.0,1.0,false,-0.3,0.2,0,,,,1
+hit_rocket,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Trail01_Orange.prefab,1.0,1.0,false,0,-0.5,0,,,,1
+heal_basic,Assets/Polygon Arsenal/Prefabs/Interactive/Healing/HealOnce.prefab,1.0,1.0,false,0,-0.6,0,,,,1
+instant_heal,Assets/Polygon Arsenal/Prefabs/Interactive/Healing/HealOnce.prefab,1.0,1.0,false,0,-0.6,0,,,,1
+shield_basic,Assets/Polygon Arsenal/Prefabs/Interactive/Powerups/Icons Holo/PowerIconShield 1.prefab,5.0,1.0,false,0,0,0,,,,1
+supply_stat_buff,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Holy/HolyBigExplosion.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_stone,Assets/_game/Prefabs/Stone.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_stone_big,Assets/_game/Prefabs/Stone.prefab,2.0,1.0,false,0,0,0,,,,1
+instant_explosion_ground,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Stone/StoneExplosion.prefab,1.0,1.0,false,0,0,0,,,,1
+projectile_trail_fire,Assets/Polygon Arsenal/Prefabs/Interactive/Trails/FloorTrails/FireFloorTrail 1.prefab,1.0,1.0,false,0,0,0,,,,1
+debuff_burn,Assets/Polygon Arsenal/Prefabs/Combat/Death/DeathFire 1.prefab,0.7,999,true,-0.07,-0.43,0,,,,1
+instant_explosion_boom,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Nuke/NukeExplosionRed 1.prefab,1.0,1.0,false,0,0,0,,,,1
+buff_invincible,Assets/Polygon Arsenal/Prefabs/Combat/Shield/ShieldBlue 1.prefab,0.8,999,true,0,0.11,0,,,,1
+instant_slash_poison,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Slash/Green/SlashSmallGreen 1.prefab,1.5,1.0,false,0,0,0,,,,1
+buff_attack_speed,Assets/Polygon Arsenal/Prefabs/Interactive/Sparkle/SparkleYellow 1.prefab,2.0,999,true,0,0,0,,,,1
+debuff_bleed,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/BloodDebuff.prefab,2.0,999,true,0,0,0,,,,1
+projectile_doll,Assets/_game/Prefabs/Doll.prefab,1.0,999,true,0,0,0,,,,1
+summon_doll,Assets/_game/Prefabs/Doll.prefab,1.0,3.0,false,0,0,0,,,,1
+debuff_taunt,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/CurseMark/CurseMarkRed.prefab,0.7,999,true,0,0.6,0,,,,1
+projectile_shield,Assets/_game/Prefabs/Shield.prefab,1.0,999,true,0,0,0,,,,1
+hit_bullet,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Bullet/BulletExplosionBlue.prefab,5.0,1.0,false,0,0,0,,,,1
+projectile_snake,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Trail01_Green 1.prefab,1.0,1.0,false,0,0,0,,,,1
+hit_snake,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Trail01_Green.prefab,1.0,1.0,false,0,-0.5,0,,,,1
+projectile_mad,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Trail01_Purple 1.prefab,1.0,1.0,false,0,0,0,,,,1
+hit_mad,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Trail01_Purple.prefab,1.0,1.0,false,0,-0.5,0,,,,1
+muzzle_skill,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Muzzle/vfx_Muzzle_Orb04_Yellow 1.prefab,2.0,2.0,false,0,0,0,,,,1
+projectile_bazooka_skill,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Fireball03_Orange 1.prefab,0.3,1.0,false,-0.3,0.2,0,,,,1
+hit_bazooka_skill,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Fireball04_Orange.prefab,1.0,1.0,false,0,-0.5,0,,,,1
+enemy_death,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Mini/MiniExploAcid 1.prefab,3.0,2.0,false,0,0,0,,,,1
