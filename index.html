@@ -20,15 +20,22 @@
       <canvas id="unity-canvas" tabindex="-1"></canvas>
     </div>
     <script>
-      // 9:16 세로 고정비율, 남는 부분 검정
-      var RATIO_W = 9, RATIO_H = 20;
+      // 세로 비율 범위: 9:20(좁은) ~ 1000:1750(넓은), 범위 밖이면 검정 레터박스
+      var MIN_RATIO = 9 / 20;        // 0.45 (가장 좁은)
+      var MAX_RATIO = 1000 / 1750;   // ~0.5714 (가장 넓은)
       function resizeCanvas() {
         var vw = window.innerWidth, vh = window.innerHeight;
+        var screenRatio = vw / vh;
         var w, h;
-        if (vh / vw > RATIO_H / RATIO_W) {
-          w = vw; h = vw * RATIO_H / RATIO_W;
+        if (screenRatio <= MIN_RATIO) {
+          // 화면이 매우 좁음 → 9:20 비율 고정, 상하 검정
+          w = vw; h = vw / MIN_RATIO;
+        } else if (screenRatio >= MAX_RATIO) {
+          // 화면이 넓음 → 1000:1750 비율 고정, 좌우 검정
+          h = vh; w = vh * MAX_RATIO;
         } else {
-          h = vh; w = vh * RATIO_W / RATIO_H;
+          // 범위 안 → 화면 전체 사용
+          w = vw; h = vh;
         }
         var c = document.getElementById('unity-canvas');
         c.style.width = Math.floor(w) + 'px';
@@ -41,13 +48,13 @@
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/Android-PlayStore.data.unityweb?v=1773908959",
-        frameworkUrl: "Build/Android-PlayStore.framework.js.unityweb?v=1773908959",
-        codeUrl: "Build/Android-PlayStore.wasm.unityweb?v=1773908959",
+        dataUrl: "Build/Android-PlayStore.data.unityweb?v=1774519403",
+        frameworkUrl: "Build/Android-PlayStore.framework.js.unityweb?v=1774519403",
+        codeUrl: "Build/Android-PlayStore.wasm.unityweb?v=1774519403",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Hadeulsoft",
         productName: "Zombie Truck Squad",
-        productVersion: "0.9.258",
+        productVersion: "0.9.260",
       }).then((unityInstance) => {
       }).catch((message) => {
         alert(message);

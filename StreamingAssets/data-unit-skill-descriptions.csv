@@ -31,10 +31,10 @@ Ballerina,50,unit.Ballerina.breakthrough_50.desc,CHAIN_TA_002_L50.duration,,,,,,
 Ballerina,999,unit.Ballerina.awakening.desc,CHAIN_TA_001.value,CHAIN_TA_002.duration,,,,,,,,피해%/스턴시간
 # Pirate - SKILL_PIRATE_POISON_SLASH (독 칼 휘두르기)
 Pirate,0,unit.Pirate.skill.desc,CHAIN_PIRATE_001.value,CHAIN_PIRATE_002.duration,,,,,,,,피해%/스턴 시간(초)
-Pirate,10,unit.Pirate.breakthrough_10.desc,CHAIN_PIRATE_001_L10.areaRadius@increase_percent,,,,,,,,범위 증가%
+Pirate,10,unit.Pirate.breakthrough_10.desc,CHAIN_PIRATE_001_L10.areaMultiplier@percent_inv,,,,,,,,범위 증가%
 Pirate,30,unit.Pirate.breakthrough_30.desc,CHAIN_PIRATE_001_L30.value,,,,,,,,피해% 추가 (증분값)
 Pirate,50,unit.Pirate.breakthrough_50.desc,CHAIN_PIRATE_002_L50.duration,,,,,,,,스턴 추가 시간(초)
-Pirate,999,unit.Pirate.awakening.desc,CHAIN_PIRATE_001.value,CHAIN_PIRATE_002.duration,,,,,,,,피해%/스턴시간
+Pirate,999,unit.Pirate.awakening.desc,CHAIN_PIRATE_001.value,CHAIN_PIRATE_002.duration,CHAIN_PIRATE_001_AWK.areaMultiplier@percent_inv,,,,,,,피해%/스턴시간/범위증가%
 # Diver - SKILL_DIVER_WATER_SHIELD (물방울 무적)
 Diver,0,unit.Diver.skill.desc,CHAIN_DIVER_001.duration,,,,,,,,무적 시간(초)
 Diver,10,unit.Diver.breakthrough_10.desc,CHAIN_DIVER_002_L10.value,,,,,,,,회복%
