@@ -1,0 +1,52 @@
+effectId,effectName,effectType,targetType,targetFilter,valueType,defaultValue,hasDuration,hasTickInterval,defaultParams,use
+EFF_DAMAGE,즉시 데미지,damage,target,enemy,percent_atk,100,0,0,falloff:1.0|max_targets:10,1
+EFF_DAMAGE_AREA,범위 데미지,damage_area,area,enemy,percent_atk,100,0,0,falloff:0.8|max_targets:99,1
+EFF_HEAL,즉시 회복,heal,target,ally,percent_atk,50,0,0,overflow_to_shield:false|max_heal_targets:3,1
+EFF_HEAL_AREA,범위 회복,heal,area,ally,percent_atk,50,0,0,overflow_to_shield:false|max_heal_targets:99,1
+EFF_SHIELD,보호막,shield,self,any,percent_max_hp,15,1,0,decay_rate:0|absorb_type:all,1
+EFF_SHIELD_TARGET,대상 보호막,shield,target,ally,percent_max_hp,15,1,0,decay_rate:0|absorb_type:all,1
+EFF_MOVE_DASH,돌진,move_dash,target,enemy,@fixed,10,0,0,collision_damage:true|stop_on_collision:false|collision_radius:1.5,1
+EFF_PROJECTILE,투사체,projectile,target,enemy,@fixed,10,0,0,pierce_count:0|homing:0|projectile_scale:1.0,1
+EFF_PROJECTILE_PIERCE,관통 투사체,projectile,target,enemy,@fixed,10,0,0,pierce_count:-1|homing:0|projectile_scale:1.0,1
+EFF_PROJECTILE_BOUNCE,튕기는 투사체,projectile_bounce,target,enemy,@fixed,8,0,0,bounce_count:2|wall_bounce:true|bounce_decay:0.8|bounce_range:5,1
+EFF_PROJECTILE_CHAIN,연쇄 투사체,projectile_chain,target,enemy,@fixed,10,0,0,chain_count:6|chain_range:5|chain_decay:0.9|prefer_new_target:true,1
+EFF_PROJECTILE_LOB,포물선 투사체,projectile_lob,target,enemy,@fixed,5,0,0,arc_height:3|explosion_radius:3,1
+EFF_DOT_BURN,화상,damage_over_time,target,enemy,percent_atk,20,1,1,dot_type:burn|spread_on_death:false|max_stacks:3,1
+EFF_DOT_POISON,독,damage_over_time,target,enemy,@fixed,10,1,1,dot_type:poison|spread_on_death:true|spread_radius:3|max_stacks:5,1
+EFF_DOT_BLEED,출혈,damage_over_time,target,enemy,percent_current_hp,5,1,1,dot_type:bleed|tick_damage_increase:1.1|max_stacks:10,1
+EFF_BUFF_DAMAGE,지속 VFX 버프,buff_damage,self,any,@fixed,0,1,0,persistent_vfx:true|buff_value:0,1
+EFF_BUFF_STAT,범용 스탯 버프,buff_stat,self,any,@fixed,0,1,0,stat_type:damage|is_percentage:true|stackable:false,1
+EFF_BUFF_DAMAGE_STAT,공격력 버프,buff_stat,target,ally,percent,30,1,0,stat_type:damage|stackable:false|refresh_on_apply:true,1
+EFF_BUFF_DEFENSE,방어력 버프,buff_stat,target,ally,percent,30,1,0,stat_type:defense|stackable:false|refresh_on_apply:true,1
+EFF_BUFF_SPEED,이동속도 버프,buff_stat,target,ally,percent,50,1,0,stat_type:speed|stackable:false|refresh_on_apply:true,1
+EFF_BUFF_ATTACK_SPEED,공격속도 버프,buff_stat,target,ally,percent,50,1,0,stat_type:attack_speed|stackable:false|refresh_on_apply:true,1
+EFF_STUN,기절,stun,target,enemy,@fixed,0,1,0,break_on_damage:false|diminishing_returns:true|min_duration:0.5,1
+EFF_PROJECTILE_BOX,박스 투사체,projectile_box,self,any,@fixed,0,0,0,box_width:1|box_height:5|projectile_speed:10|hit_once:true,1
+EFF_KNOCKBACK,넉백,knockback,target,enemy,@fixed,0,0,0,knockback_distance:3|knockback_duration:0.5|knockback_direction:left,1
+EFF_SLOW,둔화,slow,target,enemy,percent,50,1,0,stackable:false|refresh_on_apply:true,1
+EFF_AIRBORNE,에어본,airborne,target,enemy,@fixed,3,1,0,height:3|fall_damage:50|gravity_scale:2,1
+EFF_PUSH,밀치기,push,target,enemy,@fixed,5,0,0,push_speed:10|stop_at_wall:true|damage_on_wall_hit:100,1
+EFF_PULL,당기기,pull,target,enemy,@fixed,5,0,0,push_speed:10|pull_to_caster:true|fixed_distance:false,1
+EFF_TAUNT,도발,taunt,target,enemy,@fixed,0,1,0,force_target:true,1
+EFF_INVINCIBLE,무적,invincible,self,any,@fixed,0,1,0,remove_on_damage:false,1
+EFF_STEALTH,은신,stealth,self,any,@fixed,0,1,0,break_on_action:true|detection_radius:2,1
+EFF_SUMMON,소환,summon,area,any,@fixed,1,0,0,inherit_stats:100|ai_type:aggressive|max_summons:5|summon_pattern:circle,1
+EFF_CHANNEL,채널링,channel,self,any,@fixed,0,1,1,interruptible:true|move_speed:0|channel_break_threshold:100,1
+EFF_TRANSFORM,변신,transform,self,any,@fixed,0,1,0,transform_unit_id:UNIT_TRANSFORMED|inherit_stats:true,1
+EFF_CLEANSE,정화,cleanse,target,ally,@fixed,0,0,0,remove_debuffs:true|remove_dots:true,1
+EFF_SILENCE,침묵,silence,target,enemy,@fixed,0,1,0,block_skills:true,1
+EFF_BLIND,실명,blind,target,enemy,@fixed,0,1,0,miss_chance:50,1
+EFF_FEAR,공포,fear,target,enemy,@fixed,0,1,0,flee_speed:150|random_direction:true,1
+EFF_CHARM,매혹,charm,target,enemy,@fixed,0,1,0,turn_enemy:true,1
+EFF_PROJECTILE_SPREAD_BOUNCE,산탄 튕김 투사체,projectile_spread_bounce,target,enemy,percent_atk,30,0,0,spread_count:3|spread_angle:15|pierce_enemy:true|wall_bounce:2|same_target_multiplier:0.25|projectile_speed:8,1
+EFF_CONFUSION,혼란,confusion,area,enemy,@fixed,0,1,0,friendly_fire:true|attack_allies:true,1
+EFF_PROJECTILE_LOB_HEAL,포물선 투사체 힐,projectile_lob_heal,target,ally,percent_atk,150,1,0,arc_height:3|projectile_speed:8,1
+EFF_PROJECTILE_HOMING,추적 미사일,projectile_homing,target,enemy,percent_atk,100,0,0,projectile_speed:10|rotation_speed:180|initial_angle:30|homing_delay:0.15|max_lifetime:10,1
+EFF_VFX_ONLY,임팩트 VFX,vfx_only,self,any,@fixed,0,0,0,,1
+EFF_PASSIVE_SKILL_GAUGE,스킬 게이지 설정,passive_skill_gauge,self,any,@fixed,50,0,0,,1
+EFF_SKILL_GAUGE_ON_KILL,적 처치 시 스킬 게이지 충전,skill_gauge_on_kill,self,any,@fixed,100,0,0,probability:100|cooldown:0,1
+EFF_HEAL_DAMAGE_DEALT,피해량 비례 회복,heal_damage_dealt,self,any,@fixed,0,0,0,heal_percent:5|max_heal_cap:10,1
+EFF_DOLL_SUMMON,인형 소환,summon,target,enemy,@fixed,0,0,0,arc_height:3|projectile_speed:8|doll_duration:3|taunt_radius:3|health_percent:80|doll_vfx:summon_doll,1
+EFF_BARRICADE_SUMMON,바리케이드 소환,summon,self,any,@fixed,0,0,0,instant_spawn:true|spawn_offset_x:-0.2|doll_duration:10|health_percent:50,1
+EFF_INSTANT_KILL,즉사,instant_kill,target,enemy,@fixed,0,0,0,probability:30|damage_multiplier_boss:100,1
+EFF_DEATH_EXPLOSION_CONDITIONAL,조건부 사망 폭발,death_explosion_conditional,area,enemy,percent_atk,15,0,0,required_debuff:burn|explosion_radius:3,1

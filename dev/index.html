@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>길좀비켜</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; overflow: hidden; background: #000; }
+      #unity-container {
+        width: 100%; height: 100%;
+        display: flex; justify-content: center; align-items: center;
+      }
+      #unity-canvas { background: #231F20; }
+    </style>
+  </head>
+  <body>
+    <div id="unity-container">
+      <canvas id="unity-canvas" tabindex="-1"></canvas>
+    </div>
+    <script>
+      // 세로 비율 범위: 9:20(좁은) ~ 1000:1750(넓은), 범위 밖이면 검정 레터박스
+      var MIN_RATIO = 9 / 20;        // 0.45 (가장 좁은)
+      var MAX_RATIO = 1000 / 1750;   // ~0.5714 (가장 넓은)
+      function resizeCanvas() {
+        var vw = window.innerWidth, vh = window.innerHeight;
+        var screenRatio = vw / vh;
+        var w, h;
+        if (screenRatio <= MIN_RATIO) {
+          // 화면이 매우 좁음 → 9:20 비율 고정, 상하 검정
+          w = vw; h = vw / MIN_RATIO;
+        } else if (screenRatio >= MAX_RATIO) {
+          // 화면이 넓음 → 1000:1750 비율 고정, 좌우 검정
+          h = vh; w = vh * MAX_RATIO;
+        } else {
+          // 범위 안 → 화면 전체 사용
+          w = vw; h = vh;
+        }
+        var c = document.getElementById('unity-canvas');
+        c.style.width = Math.floor(w) + 'px';
+        c.style.height = Math.floor(h) + 'px';
+      }
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
+    </script>
+    <script src="Build/Android-PlayStore.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        arguments: [],
+        dataUrl: "Build/Android-PlayStore.data.unityweb?v=1778631635",
+        frameworkUrl: "Build/Android-PlayStore.framework.js.unityweb?v=1778631635",
+        codeUrl: "Build/Android-PlayStore.wasm.unityweb?v=1778631635",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Hadeulsoft",
+        productName: "길좀비켜",
+        productVersion: "0.9.295",
+      }).then((unityInstance) => {
+      }).catch((message) => {
+        alert(message);
+      });
+    </script>
+  </body>
+</html>
