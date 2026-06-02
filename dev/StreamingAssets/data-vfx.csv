@@ -1,5 +1,7 @@
 VfxType,AddressableKey,Scale,LifeTime,Looping,OffsetX,OffsetY,OffsetZ,RotX,RotY,RotZ,use
 unit_spawn,Assets/Polygon Arsenal/Prefabs/Combat/Regenerate/Normal/RegeneratePurple 1.prefab,1.0,2.0,false,0,0,0,,,,1
+unit_spawn_ally,Assets/Epic Toon FX/Prefabs/Combat/Explosions/GlitterExplosion/GlitterExplosionBlue.prefab,1.0,2.0,false,0,0,0,,,,1
+unit_spawn_enemy,Assets/Epic Toon FX/Prefabs/Combat/Explosions/SoulExplosion/SoulExplosionGreen 1.prefab,1.0,2.0,false,0,0,0,,,,1
 unit_awakening,Assets/Polygon Arsenal/Prefabs/Combat/Nova/EnergyNova/EnergyNovaRed 1.prefab,1.0,2.0,false,0,0,0,,,,1
 unit_rankup,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Club Slam/ClubSlamBlue 1.prefab,0.8,2.5,false,0,-0.3,0,,,,1
 hit_basic,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C.prefab,0.7,0.5,false,0,0,0,,,,1
