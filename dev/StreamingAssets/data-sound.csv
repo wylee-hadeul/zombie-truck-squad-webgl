@@ -66,3 +66,4 @@ unit_revive,Assets/_game/Sound/effect/RPG3_GenericMisc_AttackMissed03.wav,1,1
 core_sudden_death,Assets/_game/Sound/effect/alarm_siren_loop_11.wav,1,1
 cargo_epic_open,Assets/_game/Sound/effect/004_character_upgrade.mp3,1,1
 enemy_spawn,Assets/_game/Sound/effect/poly_shoot_skull.wav,1,1
+truck_explosion,Assets/Polygon Arsenal/Sound/Wav/poly_explosion_medium2.wav,1,1
