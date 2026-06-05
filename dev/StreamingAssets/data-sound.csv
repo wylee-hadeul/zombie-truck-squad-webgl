@@ -1,6 +1,8 @@
 SoundType,AddressableKey,Volume,use
 bgm_main,Assets/_game/Sound/City Day Lobby.mp3,0.8,1
 bgm_battle,Assets/_game/Sound/City Day Battle.mp3,0.8,1
+bgm_main2,Assets/_game/Sound/String Remix Lobby.mp3,0.8,1
+bgm_battle2,Assets/_game/Sound/String Remix Battle.mp3,0.8,1
 ui_open,Assets/_game/Sound/effect/open_DM-CGS-21.wav,1,1
 ui_close,Assets/_game/Sound/effect/close_DM-CGS-40.wav,1,1
 core_ally_new,Assets/_game/Sound/effect/CoreHeroMerge_Special & Powerup (20).wav,1,1
