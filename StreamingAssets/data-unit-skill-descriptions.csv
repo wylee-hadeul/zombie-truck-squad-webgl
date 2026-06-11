@@ -95,3 +95,88 @@ Snake,10,unit.Snake.breakthrough_10.desc,CHAIN_SNAKE_003_L10.value,,,,,,,,공격
 Snake,30,unit.Snake.breakthrough_30.desc,CHAIN_SNAKE_004_L30.value,,,,,,,,회복%
 Snake,50,unit.Snake.breakthrough_50.desc,CHAIN_SNAKE_001_L50.params.max_targets@increment,CHAIN_SNAKE_001_L50.params.max_targets,,,,,,추가 대상 수/최대 대상 수
 Snake,999,unit.Snake.awakening.desc,CHAIN_SNAKE_001.params.max_targets,CHAIN_SNAKE_002.duration,CHAIN_SNAKE_002.value,CHAIN_SNAKE_005_AWK.value,,,,,대상수/지속시간/공속%/이속%
+# Amelzia - SKILL_AMELZIA_MOLOTOV (화염병 투척)
+Amelzia,0,unit.Amelzia.skill.desc,CHAIN_AM_002.value,,,,,,,,범위 피해%
+Amelzia,10,unit.Amelzia.breakthrough_10.desc,CHAIN_AM_L10.value,,,,,,,,공격력 증가%
+Amelzia,30,unit.Amelzia.breakthrough_30.desc,CHAIN_AM_002_L30.value,,,,,,,,스킬 피해량 추가%
+Amelzia,50,unit.Amelzia.breakthrough_50.desc,CHAIN_AM_L50.value,,,,,,,,공격력 증가%
+Amelzia,999,unit.Amelzia.awakening.desc,CHAIN_AM_001_AWK.params.scatter_count,CHAIN_AM_002_AWK.value+CHAIN_AM_002.value,,,,,,화염병 개수/피해%(합산)
+# Radian - SKILL_RADIAN_HEAL (체력의 기원)
+Radian,0,unit.Radian.skill.desc,CHAIN_RH_001.value,,,,,,,,회복%
+Radian,10,unit.Radian.breakthrough_10.desc,CHAIN_RH_L10.value,,,,,,,,공격속도%
+Radian,30,unit.Radian.breakthrough_30.desc,CHAIN_RH_001_L30.value,,,,,,,,회복량 추가%
+Radian,50,unit.Radian.breakthrough_50.desc,CHAIN_RH_001_L50.value,,,,,,,,회복량 추가%
+Radian,999,unit.Radian.awakening.desc,CHAIN_RH_001.value+CHAIN_RH_001_AWK.value,,,,,,,,회복%(합산)
+# Monchesto - SKILL_MONCHESTO_SPIN (리듬 회전격)
+Monchesto,0,unit.Monchesto.skill.desc,CHAIN_MS_001.value,,,,,,,,피해%
+Monchesto,10,unit.Monchesto.breakthrough_10.desc,CHAIN_MS_L10.value,,,,,,,,공격력%
+Monchesto,30,unit.Monchesto.breakthrough_30.desc,CHAIN_MS_L30.value,,,,,,,,공격속도%
+Monchesto,50,unit.Monchesto.breakthrough_50.desc,CHAIN_MS_L50.value,,,,,,,,체력%
+Monchesto,999,unit.Monchesto.awakening.desc,CHAIN_MS_001.value+CHAIN_MS_001_AWK.value,CHAIN_MS_002_AWK.duration,,,,,,피해%(합산)/스턴시간
+# Shutyan - SKILL_SHUTYAN_FRENZY (분노)
+Shutyan,0,unit.Shutyan.skill.desc,CHAIN_SF_001.value,,,,,,,,공격속도%
+Shutyan,10,unit.Shutyan.breakthrough_10.desc,CHAIN_SF_L10.value,,,,,,,,공격력%
+Shutyan,30,unit.Shutyan.breakthrough_30.desc,CHAIN_SF_L30.value,,,,,,,,체력%
+Shutyan,50,unit.Shutyan.breakthrough_50.desc,CHAIN_SF_L50.value,,,,,,,,공격속도%
+Shutyan,999,unit.Shutyan.awakening.desc,CHAIN_SF_001.value+CHAIN_SF_001_AWK.value,,,,,,,,공격속도%(합산)
+# Turando - SKILL_TURANDO_HEAL (철벽)
+Turando,0,unit.Turando.skill.desc,CHAIN_TH_001.value,,,,,,,,회복%
+Turando,10,unit.Turando.breakthrough_10.desc,CHAIN_TH_L10.value,,,,,,,,방어력%
+Turando,30,unit.Turando.breakthrough_30.desc,CHAIN_TH_L30.value,,,,,,,,체력%
+Turando,50,unit.Turando.breakthrough_50.desc,CHAIN_TH_L50.value,,,,,,,,공격력%
+Turando,999,unit.Turando.awakening.desc,CHAIN_TH_001.value+CHAIN_TH_001_AWK.value,,,,,,,,회복%(합산)
+# Zeta - SKILL_ZETA_PIERCE (찌르기)
+Zeta,0,unit.Zeta.skill.desc,CHAIN_ZP_001.value,,,,,,,,피해%
+Zeta,10,unit.Zeta.breakthrough_10.desc,CHAIN_ZP_L10.value,,,,,,,,공격력%
+Zeta,30,unit.Zeta.breakthrough_30.desc,CHAIN_ZP_L30.value,,,,,,,,체력%
+Zeta,50,unit.Zeta.breakthrough_50.desc,CHAIN_ZP_L50.value,,,,,,,,공격속도%
+Zeta,999,unit.Zeta.awakening.desc,CHAIN_ZP_001.value+CHAIN_ZP_001_AWK.value,,,,,,,,피해%(합산)
+# Modoo - SKILL_MODOO_SHIELD (방어지원)
+Modoo,0,unit.Modoo.skill.desc,CHAIN_MDS_001.value,,,,,,,,쉴드%
+Modoo,10,unit.Modoo.breakthrough_10.desc,CHAIN_MDS_L10.value,,,,,,,,체력%
+Modoo,30,unit.Modoo.breakthrough_30.desc,5,,,,,,,,쿨타임 감소% (고정값)
+Modoo,50,unit.Modoo.breakthrough_50.desc,20,,,,,,,,공격속도% (고정값)
+Modoo,999,unit.Modoo.awakening.desc,CHAIN_MDS_001.value+CHAIN_MDS_001_AWK.value,,,,,,,,쉴드%(합산)
+# Huma - SKILL_HUMA_FRENZY (내면개방)
+Huma,0,unit.Huma.skill.desc,CHAIN_HF_001.value,CHAIN_HF_002.value,,,,,,,공속%/이속%
+Huma,10,unit.Huma.breakthrough_10.desc,CHAIN_HF_L10.value,,,,,,,,체력%
+Huma,30,unit.Huma.breakthrough_30.desc,5,,,,,,,,쿨타임 감소% (고정값)
+Huma,50,unit.Huma.breakthrough_50.desc,20,,,,,,,,공격속도% (고정값)
+Huma,999,unit.Huma.awakening.desc,CHAIN_HF_001.value+CHAIN_HF_001_AWK.value,CHAIN_HF_002.value+CHAIN_HF_002_AWK.value,,,,,,,공속%(합산)/이속%(합산)
+# Scalar - SKILL_SCALAR_BUFF (응원 구호)
+Scalar,0,unit.Scalar.skill.desc,CHAIN_SCB_001.value,,,,,,,,공격력 증가%
+Scalar,10,unit.Scalar.breakthrough_10.desc,CHAIN_SCB_L10.value,,,,,,,,체력%
+Scalar,30,unit.Scalar.breakthrough_30.desc,CHAIN_SCB_L30.value,,,,,,,,공격속도%
+Scalar,50,unit.Scalar.breakthrough_50.desc,CHAIN_SCB_L50.value,,,,,,,,쿨타임 감소%
+Scalar,999,unit.Scalar.awakening.desc,CHAIN_SCB_001.value+CHAIN_SCB_001_AWK.value,CHAIN_SCB_002_AWK.value,,,,,,,공격력%(합산)/회복%
+# Serventina - SKILL_SERVENTINA_FRENZY (광폭화)
+Serventina,0,unit.Serventina.skill.desc,CHAIN_SVF_001.value,CHAIN_SVF_003.value,CHAIN_SVF_002.value,,,,,,공속%/흡혈%/이속%
+Serventina,10,unit.Serventina.breakthrough_10.desc,CHAIN_SVF_L10.value,,,,,,,,공격속도%
+Serventina,30,unit.Serventina.breakthrough_30.desc,CHAIN_SVF_L30.value,,,,,,,,공격력%
+Serventina,50,unit.Serventina.breakthrough_50.desc,CHAIN_SVF_L50.value,,,,,,,,체력%
+Serventina,999,unit.Serventina.awakening.desc,CHAIN_SVF_001.value+CHAIN_SVF_001_AWK.value,CHAIN_SVF_003.value+CHAIN_SVF_003_AWK.value,CHAIN_SVF_002.value+CHAIN_SVF_002_AWK.value,,,,,,공속%/흡혈%/이속%(합산)
+# Andrew - SKILL_ANDREW_STRIKE (타켓지정)
+Andrew,0,unit.Andrew.skill.desc,CHAIN_AS_001.value,,,,,,,,피해%
+Andrew,10,unit.Andrew.breakthrough_10.desc,CHAIN_AS_L10.value,,,,,,,,공격력%
+Andrew,30,unit.Andrew.breakthrough_30.desc,CHAIN_AS_L30.value,,,,,,,,체력%
+Andrew,50,unit.Andrew.breakthrough_50.desc,CHAIN_AS_L50.value,,,,,,,,공격력%
+Andrew,999,unit.Andrew.awakening.desc,CHAIN_AS_001.value+CHAIN_AS_001_AWK.value,CHAIN_AS_002_AWK.value,,,,,,,피해%(합산)/회복%
+# Police - SKILL_BARRICADE (방벽 소환)
+Police,0,unit.Police.skill.desc,CHAIN_BARRICADE_001.params.health_percent,CHAIN_BARRICADE_001.params.doll_duration,,,,,,,방벽HP%/지속시간(초)
+Police,10,unit.Police.breakthrough_10.desc,CHAIN_BARRICADE_001_L10.params.health_percent,,,,,,,,방벽HP%(증가값)
+Police,30,unit.Police.breakthrough_30.desc,CHAIN_BARRICADE_001_L30.params.doll_duration,,,,,,,,지속시간(초)
+Police,50,unit.Police.breakthrough_50.desc,CHAIN_BARRICADE_001_L50.params.health_percent,,,,,,,,방벽HP%
+Police,999,unit.Police.awakening.desc,CHAIN_BARRICADE_001.params.health_percent,CHAIN_BARRICADE_001.params.doll_duration,CHAIN_BARRICADE_AWK.value,CHAIN_BARRICADE_AWK.duration,,,,,방벽HP%/방벽지속시간/보호막%/보호막지속시간
+# Zalts - SKILL_ZALTS_HEAL (용사탄생)
+# Rico - SKILL_RICO_STRIKE (5타 집중타격)
+Rico,0,unit.Rico.skill.desc,CHAIN_RS_001.value,,,,,,,,피해%
+Rico,10,unit.Rico.breakthrough_10.desc,CHAIN_RC_L10.value,,,,,,,,공격력%
+Rico,30,unit.Rico.breakthrough_30.desc,CHAIN_RC_L30.value,,,,,,,,사거리(+)
+Rico,50,unit.Rico.breakthrough_50.desc,CHAIN_RC_L50.value,,,,,,,,공격속도%
+Rico,999,unit.Rico.awakening.desc,CHAIN_RS_001_AWK.value,,,,,,,,피해%(각성)
+# Zalts - SKILL_ZALTS_HEAL (용사탄생)
+Zalts,0,unit.Zalts.skill.desc,CHAIN_ZH_001.value,CHAIN_ZP_001.value,,,,,,,회복%/쉴드량
+Zalts,10,unit.Zalts.breakthrough_10.desc,CHAIN_ZP_L10.value,,,,,,,,최대체력%
+Zalts,30,unit.Zalts.breakthrough_30.desc,CHAIN_ZP_L30.value,,,,,,,,회복효율%
+Zalts,50,unit.Zalts.breakthrough_50.desc,CHAIN_ZP_L50.value,,,,,,,,방어력%
+Zalts,999,unit.Zalts.awakening.desc,CHAIN_ZH_001_AWK.value,CHAIN_ZP_001_AWK.value,,,,,,,회복%(각성)/쉴드량(각성)

@@ -1,6 +1,8 @@
 SoundType,AddressableKey,Volume,use
-bgm_main,Assets/_game/Sound/Space Threat.wav,0.5,1
-bgm_battle,Assets/_game/Sound/Chase Through the City.wav,0.4,1
+bgm_main,Assets/_game/Sound/City Day Lobby.mp3,0.8,1
+bgm_battle,Assets/_game/Sound/City Day Battle.mp3,0.8,1
+bgm_main2,Assets/_game/Sound/String Remix Lobby.mp3,0.8,1
+bgm_battle2,Assets/_game/Sound/String Remix Battle.mp3,0.8,1
 ui_open,Assets/_game/Sound/effect/open_DM-CGS-21.wav,1,1
 ui_close,Assets/_game/Sound/effect/close_DM-CGS-40.wav,1,1
 core_ally_new,Assets/_game/Sound/effect/CoreHeroMerge_Special & Powerup (20).wav,1,1
@@ -22,11 +24,11 @@ switch_char,Assets/_game/Sound/effect/switch.wav,1,1
 equip_btn,Assets/_game/Sound/effect/equip_btn.wav,1,1
 skill_charge,Assets/_game/Sound/effect/skill_charge.wav,1,1
 find_relic,Assets/_game/Sound/effect/skillActived.wav,1,1
-bgm_content_1,Assets/_game/Sound/16_BGM_Event1.wav,0.4,1
-bgm_content_2,Assets/_game/Sound/17_BGM_Event2.wav,0.4,1
-bgm_content_3,Assets/_game/Sound/18_BGM_Event3.wav,0.4,1
-bgm_content_4,Assets/_game/Sound/19_BGM_Event4.wav,0.4,1
-bgm_hard,Assets/_game/Sound/Chase Through the City.wav,1,1
+bgm_content_1,Assets/_game/Sound/City Day Lobby.mp3,0.8,1
+bgm_content_2,Assets/_game/Sound/String Remix Battle.mp3,0.8,1
+bgm_content_3,Assets/_game/Sound/String Remix Battle.mp3,0.8,1
+bgm_content_4,Assets/_game/Sound/City Day Lobby.mp3,0.8,1
+bgm_hard,Assets/_game/Sound/City Day Battle.mp3,0.8,1
 hero_awaken,Assets/_game/Sound/effect/awaken.mp3,1,1
 engine_start,Assets/_game/Sound/effect/car_engine_start.mp3,1,1
 hero_levelup,Assets/_game/Sound/effect/levelup.wav,1,0
@@ -61,3 +63,9 @@ truck_landing,Assets/_game/Sound/effect/truck_landing_DM-CGS-48.wav,0.6,1
 missile_launch,Assets/Polygon Arsenal/Sound/Wav/poly_shoot_missile.wav,1,1
 tyre_skid,Assets/_game/Sound/effect/tyre_skid_04.wav,1,1
 unit_revive,Assets/_game/Sound/effect/RPG3_GenericMisc_AttackMissed03.wav,1,1
+core_sudden_death,Assets/_game/Sound/effect/alarm_siren_loop_11.wav,1,1
+cargo_epic_open,Assets/_game/Sound/effect/004_character_upgrade.mp3,1,1
+enemy_spawn,Assets/_game/Sound/effect/poly_shoot_skull.wav,1,1
+truck_explosion,Assets/Polygon Arsenal/Sound/Wav/poly_explosion_medium2.wav,1,1
+new_content_reveal,Assets/_game/Sound/effect/skillActived.wav,1,1
+new_content_move,Assets/_game/Sound/effect/jump_DM-CGS-47.wav,0.7,1

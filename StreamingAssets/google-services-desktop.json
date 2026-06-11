@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "572387999541",
-    "project_id": "zombietrucksquad-f8135",
-    "storage_bucket": "zombietrucksquad-f8135.firebasestorage.app"
+    "project_number": "646449251347",
+    "project_id": "ztsdefense-8a836",
+    "storage_bucket": "ztsdefense-8a836.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:572387999541:android:bc7f55136250396178167c",
+        "mobilesdk_app_id": "1:646449251347:android:dc7643477777a617946be6",
         "android_client_info": {
-          "package_name": "com.hadeul.zombietrucksquard"
+          "package_name": "com.hadeul.ztsdefense"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyASDuaymI7PiA9s1A-83gWPvA0i4SMG3j0"
+          "current_key": "AIzaSyAReoPAnq79oK38EFzihqne1-CAPW8m98Y"
         }
       ],
       "services": {
