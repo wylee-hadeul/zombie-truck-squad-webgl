@@ -42,3 +42,5 @@ ENH_SUP_OVERLOAD,SUP_OVERLOAD,cooldown,special,support,100,25,5,,,1,85,0,0,0,50
 ENH_SUP_MULTI_STRIKE,SUP_MULTI_STRIKE,attack,combat,support,-40,2,0,,,1,85,0,0,0,50
 ENH_SUP_LINK,SUP_LINK,support,special,support,15,0,0,,,1,85,0,0,0,50
 ENH_SUP_BUFF_EXTEND,SUP_BUFF_EXTEND,duration,special,support,50,0,0,Mad|Squad|Radian,,1,85,1,0,0,82
+ENH_DPS_SHIELD_BREAKER,SHIELD_BREAKER,attack,special,dps,60,0,0,,,1,85,1,0,75,0
+ENH_SUP_SHIELD_BREAKER,SHIELD_BREAKER,attack,special,support,60,0,0,,,1,85,1,0,0,72
