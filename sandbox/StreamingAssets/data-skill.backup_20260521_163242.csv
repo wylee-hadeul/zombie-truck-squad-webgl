@@ -1,0 +1,82 @@
+skillId,skillName,skillDesc,icon,castTime,range,use,passive
+SKILL_SHIELD_CHARGE,Shield Charge,최대HP의 15% 보호막을 부여한 후 멀리 있는 적에게 돌진. 경로와 도착지점에 200% 피해. 보호막은 3초 지속,icon_shield_charge,0.5,-1,1,0
+SKILL_SHIELD_AURA,Shield Aura,3초간 자신에게 최대HP의 20% 보호막 부여. 주변 3m 내 아군에게는 10% 보호막 부여,icon_shield_aura,0,-1,1,0
+SKILL_WIND_PUSH,Wind Push,강력한 바람으로 적들을 왼쪽으로 밀어냄,icon_wind,0,0,1,0
+SKILL_FLASH_SLASH,Flash Slash,멀리 있는 적에게 순식간에 이동하며 경로의 적들을 베어 공격력의 130% 피해,icon_flash_slash,0,-1,1,0
+SKILL_THUNDER_SLAM,Thunder Slam,주변 범위에 공격력의 250% 피해를 입히고 1.5초간 스턴,icon_thunder_slam,0.5,0,1,0
+SKILL_WHIRLWIND,Whirlwind,주변 범위에 공격력의 150% 피해,icon_whirlwind,0,0,1,0
+SKILL_ASSASSINATE,암살,최대HP가 가장 낮은 적에게 순간이동해 공격력의 200% 피해,icon_assassinate,0.2,-1,1,0
+SKILL_TOXIC_AURA,독성 오라,주변에 풍기는 냄새로 매초 공격력의 25% 피해,icon_toxic,0,0,1,1
+SKILL_CHAINSAW_WHIRLWIND,전기톱 회전,전기톱을 회전시켜 주변 범위에 공격력의 150% 피해,icon_chainsaw,0,0,1,0
+SKILL_BAZOOKA,바주카 포격,3발의 포탄을 발사. 적은 관통하고 벽에 2회 튕김,icon_bazooka,0.3,0,1,0
+SKILL_FLASHBANG,섬광탄,적에게 섬광탄을 던져 범위 피해와 2.2초 혼란,icon_flashbang,0.2,0,1,0
+SKILL_HEALING_POTION,치유 물약,HP가 낮은 아군 2명에게 약병을 던져 공격력의 150%만큼 회복,icon_healing,0.2,0,1,0
+SKILL_TRIPLE_AXEL,트리플 악셀,주변 범위에 공격력의 250% 피해를 입히고 1.5초간 스턴,icon_triple_axel,0.5,0,1,0
+SKILL_BASIC_MISSILE,미사일 평타,추적 미사일을 발사하여 공격력의 100% 피해,icon_missile,0,0,1,0
+SKILL_BASIC_ROCKET,로켓 평타,직선 로켓을 발사하여 공격력의 100% 피해,icon_missile,0,0,1,0
+SKILL_BASIC_BULLET,총알 평타,일반 총알을 발사하여 공격력의 100% 피해,icon_bullet,0,0,1,0
+SKILL_BASIC_SNAKE,뱀독 평타,독액을 발사하여 공격력의 100% 피해,icon_bullet,0,0,1,0
+SKILL_BASIC_MAD,매드 평타,마법탄을 발사하여 공격력의 100% 피해,icon_bullet,0,0,1,0
+SKILL_BASIC_STONE,짱돌 평타,짱돌을 던져서 공격력의 100% 피해,,0,0,1,0
+SKILL_PIRATE_POISON_SLASH,독 칼 휘두르기,전방으로 독이 묻은 칼을 휘둘러 범위 내의 적에게 공격력의 20% 피해 + 1.5초 스턴,icon_slash,0.5,0,1,0
+SKILL_DIVER_WATER_SHIELD,물방울 무적,자신을 물방울로 감싸 3초간 무적상태 부여,icon_shield,0,-1,1,0
+SKILL_HACKER_SHIELD,보호막 부여,HP 비율이 낮은 아군에게 자신의 최대 HP 30% 보호막 4초간 부여,icon_shield,0.2,0,1,0
+SKILL_SNAKE_ATTACK_SPEED_BUFF,공격속도 버프,공격력이 높은 아군 최대 2인에게 4초간 공격속도 +20% 버프,icon_speed,0.3,0,1,0
+PASSIVE_Martial,약점 공격,가끔 적의 약점을 공격합니다.,icon_critical,0,0,1,1
+SKILL_DOLL_THROW,인형 던지기,적에게 인형을 던집니다. 인형은 자신 체력의 80%를 가지며 범위 내 적에게 도발 효과를 부여합니다. 인형은 3초 후 사라집니다.,icon_doll,0.3,-1,1,0
+SKILL_NURSE_INJECTION,체력 회복 주사,체력 비율이 가장 적은 아군에게 접근하여 주사 후 ATK의 250% 회복,icon_healing,0.2,-1,1,0
+SKILL_BASIC_FIREBALL_BLUE,파란 마법탄,파란 마법탄을 발사하여 공격력의 100% 피해,,0,0,1,0
+SKILL_BASIC_LIGHTNING,번개탄,번개탄을 발사하여 공격력의 100% 피해,,0,0,1,0
+SKILL_BASIC_AMELZIA,화염구 투척,화염구를 던져 공격력의 100% 피해,,0,0,1,0
+SKILL_AMELZIA_MOLOTOV,화염병 투척,적 주변에 폭발하는 화염병을 던져 범위 피해,,0.3,0,1,0
+SKILL_BASIC_HOLY,신성탄,신성탄을 발사하여 공격력의 100% 피해,,0,0,1,0
+SKILL_BASIC_ICE,얼음탄,얼음탄을 발사하여 공격력의 100% 피해,,0,0,1,0
+SKILL_BASIC_NATURE,자연탄,자연탄을 발사하여 공격력의 100% 피해,,0,0,1,0
+SKILL_BASIC_AMETHYST,수정탄,수정탄을 발사하여 공격력의 100% 피해,,0,0,1,0
+SKILL_BASIC_SHADOW,그림자탄,그림자탄을 발사하여 공격력의 100% 피해,,0,0,1,0
+SKILL_RADIAN_HEAL,체력의 기원,팀원 한 명의 체력을 3초에 걸쳐 회복,,0.2,0,1,0
+SKILL_MONCHESTO_SPIN,리듬 회전격,주변 범위에 공격력의 200% 피해,,0.3,0,1,0
+SKILL_SHUTYAN_FRENZY,분노,본인의 공격속도를 대폭 증가,,0,0,1,0
+SKILL_TURANDO_HEAL,철벽,자신의 체력을 회복,,0,0,1,0
+SKILL_ZETA_PIERCE,찌르기,관통하는 공격,,0.2,0,1,0
+SKILL_MODOO_SHIELD,방어지원,아군 전체에게 쉴드 부여,,0.3,0,1,0
+SKILL_HUMA_FRENZY,내면개방,공격속도와 이동속도를 대폭 증가,,0,0,1,0
+SKILL_SCALAR_BUFF,응원 구호,아군 1명의 공격력을 대폭 증가,,0.2,0,1,0
+SKILL_SERVENTINA_FRENZY,광폭화,공격속도 흡혈률 이동속도를 대폭 증가,,0,0,1,0
+SKILL_ANDREW_STRIKE,타켓지정,단일 타겟에게 공격력의 400% 피해,,0.3,0,1,0
+PASSIVE_DEFTANK_SHIELD,방어 태세,스폰 시 쉴드 부여,,0,0,1,1
+PASSIVE_SHEILDTANK_SHIELD,철벽 방어,스폰 시 쉴드 부여 - 쉴드가 다 깨져야 HP 감소,,0,0,1,1
+PASSIVE_POLICEKNIGHT_SHIELD,기사의 방패,스폰 시 쉴드 부여,,0,0,1,1
+SKILL_VUDOO_HEAL,부두 치유,아군 1명의 체력 회복,,0,0,1,0
+SKILL_VUDOOTWO_SHIELD,부두 보호,아군 1명에게 쉴드 부여,,0,0,1,0
+SKILL_CHEIF_HEAL,족장의 치유,모든 아군의 체력 5% 회복,,0,0,1,0
+SKILL_MADJK_HEAL,광기의 치유,모든 아군의 체력 10% 회복,,0,0,1,0
+SKILL_DOCTOR_HEAL,전기 폭발,강력한 전기 폭발로 범위 내 적에게 공격력의 300% 피해,,0,0,1,0
+SKILL_BABA_SELFHEAL,자가 회복,자신의 체력 10% 회복,,0,0,1,0
+SKILL_ARMORED_TAUNT,중장갑 도발,주변 적을 도발하여 자신을 공격하게 함,,0,0,1,0
+SKILL_MADKNIGHT_STUN,기절 공격,주변 적에게 1초간 기절,,0,0,1,0
+SKILL_YEAHMAG_LIGHTNING,전기 벼락,강력한 전기 벼락으로 범위 피해,,0,0,1,0
+SKILL_POSHIELD_PUSH,밀치기,적을 밀어냄,,0,0,1,0
+SKILL_MASKKNIFE_ASSASSINATE,암살,가장 먼 적에게 순간이동하여 200% 피해,,0.2,-1,1,0
+SKILL_HAMMER_BASH,배쉬,강력한 타격으로 300% 피해와 1초 기절,,0.3,0,1,0
+SKILL_AXSKULL_SHIELD,해골 방패,자신에게 체력의 20% 쉴드 부여,,0,0,1,0
+SKILL_BATSKULL_PUSH,타격 밀치기,매 공격시 적을 밀어냄,,0,0,1,0
+SKILL_NATIVE_BUFF,원주민 버프,모든 아군 체력 10% 회복 및 공격속도 30% 증가,,0,0,1,0
+SKILL_ADVMAG_MOLOTOV,화염병 투척,적에게 화염병을 던져 150% 범위 피해,,0.3,0,1,0
+SKILL_ADVMAGBOSS_LIGHTNING,전격 폭발,랜덤 3명에게 전격 폭발 200% 피해,,0.3,0,1,0
+SKILL_WARRIOR_SHIELD,전사의 방패,자신에게 체력의 10% 쉴드 부여,,0,0,1,0
+SKILL_WARRIOR_FRENZY,전사의 광기,3초간 공격속도 80% 증가,,0,0,1,0
+PASSIVE_ADVARMORED_SHIELD,중장갑 방어,스폰 시 쉴드 부여 및 7초마다 체력 15% 회복과 쉴드 5% 부여,,0,0,1,1
+PASSIVE_HIGHARMORED_SHIELD,최강 방어,스폰 시 쉴드 부여 및 10초마다 체력 10% 회복과 쉴드 15% 부여,,0,0,1,1
+SKILL_ADVKNIFE_SELFHEAL,자가 치유,자신의 체력 10% 회복,,0,0,1,0
+SKILL_MACE_HEAL,메이스 치유,모든 아군 체력 8% 회복,,0,0,1,0
+SKILL_ADVBUSKER_FRENZY,광기의 강화,3초간 공격력 10% 및 공격속도 200% 증가,,0,0,1,0
+PASSIVE_ADVARMOREDTWO_SHIELD,이중 장갑,스폰 시 쉴드 8000 부여,,0,0,1,1
+SKILL_ADVSUP_ASPD_BUFF,지원 버프,3초간 전체 공격속도 10% 증가,,0,0,1,0
+SKILL_GENTLEMAN_HEAL,신사의 치유,자신과 아군 1명의 체력 10% 회복,,0,0,1,0
+SKILL_BASIC_RICO,리코 사격,정확한 사격으로 공격력의 100% 피해,,0,0,1,0
+PASSIVE_Rico,타겟확인,5타 공격시 강력한 피해. 적 처치 시 초감각 스택 획득 - 스택당 공격력/공속 +3% (최대 4스택 · 피격 시 초기화),,0,0,1,1
+
+SKILL_RICO_STRIKE,타겟확인,5타마다 강력한 일격. 공격력의 250% 피해,,0,0,1,0
+SKILL_ZALTS_HEAL,용사탄생,모든 아군의 체력을 자신 최대 HP의 20% 회복. 웨이브 시작시 전체 쉴드 500,icon_healing,0.2,0,1,0
+PASSIVE_Zalts,용사의 가호,웨이브 시작시 모든 아군에게 쉴드 제공,,0,0,1,1
