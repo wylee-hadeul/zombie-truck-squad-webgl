@@ -1,0 +1,13 @@
+tier,required_energy,reward_type,reward_amount
+0,10,gem,3000
+1,30,gold,20000
+2,50,enchantment_shard_red,100
+3,100,enchantment_shard_green,100
+4,150,enchantment_shard_blue,100
+5,200,gem,4000
+6,250,gold,30000
+7,300,enchantment_shard_blue,300
+8,450,enchantment_shard_red,300
+9,500,enchantment_shard_green,300
+10,550,gem,5000
+11,600,gem,10000
