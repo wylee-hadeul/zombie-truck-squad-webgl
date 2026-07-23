@@ -11,7 +11,11 @@
       #unity-container {
         width: 100%; height: 100%;
         display: flex; justify-content: center; align-items: center;
+        background: #000; /* 전체화면 시 비율 밖 여백(레터박스) 검정 */
       }
+      /* 컨테이너가 전체화면일 때도 캔버스는 resizeCanvas가 계산한 비율대로 중앙 유지 */
+      #unity-container:fullscreen { background: #000; }
+      #unity-container:-webkit-full-screen { background: #000; }
       #unity-canvas { background: #231F20; }
     </style>
   </head>
@@ -43,18 +47,22 @@
       }
       resizeCanvas();
       window.addEventListener('resize', resizeCanvas);
+      // 전체화면 진입/이탈 시에도 비율 클램프 재계산 (컨테이너를 전체화면으로 만들어도 캔버스는 세로 비율 유지)
+      function onFullscreenChange() { resizeCanvas(); setTimeout(resizeCanvas, 100); }
+      document.addEventListener('fullscreenchange', onFullscreenChange);
+      document.addEventListener('webkitfullscreenchange', onFullscreenChange);
     </script>
     <script src="Build/Android-PlayStore.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/Android-PlayStore.data.unityweb?v=1784797078",
-        frameworkUrl: "Build/Android-PlayStore.framework.js.unityweb?v=1784797078",
-        codeUrl: "Build/Android-PlayStore.wasm.unityweb?v=1784797078",
+        dataUrl: "Build/Android-PlayStore.data.unityweb?v=1784798322",
+        frameworkUrl: "Build/Android-PlayStore.framework.js.unityweb?v=1784798322",
+        codeUrl: "Build/Android-PlayStore.wasm.unityweb?v=1784798322",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Hadeulsoft",
         productName: "길좀비켜",
-        productVersion: "0.9.352",
+        productVersion: "0.9.353",
       }).then((unityInstance) => {
       }).catch((message) => {
         alert(message);
