@@ -1,8 +1,0 @@
-null,Index,Stat_Code,Name_Code,Icon_Name,Is_Per,Etc,Combat_Weight
-null,1,ATTACK_POWER,101,icon_stat_attack,0,공격력,10000
-null,2,ATTACK_POWER_PER,102,icon_stat_attack,1,공격력(%값),0
-null,3,HP,103,icon_stat_hp,0,체력,10000
-null,4,HP_PER,104,icon_stat_hp,1,체력(%값),0
-null,5,ATTACK_SPEED,105,,0,공속증가,10000
-null,6,CRITICAL_DAMAGE,106,,1,치명타 피해,10000
-null,7,CRITICAL_RATE,107,,0,치명타 확률,10000
