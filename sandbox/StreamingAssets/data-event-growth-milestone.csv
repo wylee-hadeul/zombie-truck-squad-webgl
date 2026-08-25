@@ -1,0 +1,6 @@
+milestone_index,required_points,reward_type,reward_amount,reward_extra
+0,50,gold,15000,
+1,100,gem,5000,
+2,150,character,1,Commander
+3,200,gem,7000,
+4,300,character,1,Mad

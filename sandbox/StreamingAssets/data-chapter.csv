@@ -1,0 +1,13 @@
+mode,chapter,name_key,thumbnail_index,bg_index,reward_type,reward_amount
+Normal,1,chapter.name_01,4,0,enchantment_shard_blue,1000
+Normal,2,chapter.name_02,1,1,enchantment_shard_red,1000
+Normal,3,chapter.name_03,2,2,enchantment_shard_green,1000
+Normal,4,chapter.name_04,3,3,gem,10000
+Hard,1,chapter.name_01,4,0,enchantment_shard_blue,1000
+Hard,2,chapter.name_02,1,1,enchantment_shard_red,1000
+Hard,3,chapter.name_03,2,2,enchantment_shard_green,1000
+Hard,4,chapter.name_04,3,3,gem,10000
+Nightmare,1,chapter.name_01,4,0,enchantment_shard_blue,1000
+Nightmare,2,chapter.name_02,1,1,enchantment_shard_red,1000
+Nightmare,3,chapter.name_03,2,2,enchantment_shard_green,1000
+Nightmare,4,chapter.name_04,3,3,gem,10000
