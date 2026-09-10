@@ -1,0 +1,4 @@
+debuffId,name,value,duration,tickInterval,use
+# 공용 디버프 정의 — 체인의 debuffId 칼럼이 참조하면 value/duration/tickInterval을 여기서 주입 (기획자는 이 파일만 수정)
+# 중독: 1초마다 공격력의 10% 지속 피해 4초 (만분율: 100000=10% / 40000=4초 / 10000=1초),,,,,
+DEBUFF_POISON,중독,100000,40000,10000,1

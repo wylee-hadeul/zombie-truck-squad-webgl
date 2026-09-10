@@ -78,7 +78,7 @@ Squad,30,unit.Squad.breakthrough_30.desc,CHAIN_FLASHBANG_002_L30.value,,,,,,,,�
 Squad,50,unit.Squad.breakthrough_50.desc,CHAIN_FLASHBANG_004_L50.value,CHAIN_FLASHBANG_004_L50.duration,,,,,,공격속도%/지속시간(초)
 Squad,999,unit.Squad.awakening.desc,CHAIN_FLASHBANG_002.value,CHAIN_FLASHBANG_003.duration+CHAIN_FLASHBANG_003_AWK.duration,,,,,,,,피해%/혼란시간(합산)
 # Mad - SKILL_HEALING_POTION (치유 물약)
-Mad,0,unit.Mad.skill.desc,CHAIN_HP_001.params.max_targets,CHAIN_HP_001.value,,,,,,,,최대 대상 수/회복%
+Mad,0,unit.Mad.skill.desc,CHAIN_HP_001.params.max_targets,CHAIN_HP_001.value,CHAIN_HP_003_L30.value,CHAIN_HP_003_L30.duration,CHAIN_HP_003_L30.tickInterval,,,,,대상수/착탄%/중독%/중독초/틱초
 Mad,10,unit.Mad.breakthrough_10.desc,CHAIN_HP_002_L10.value,,,,,,,,폭발 피해%
 Mad,30,unit.Mad.breakthrough_30.desc,CHAIN_HP_003_L30.duration,CHAIN_HP_003_L30.tickInterval,CHAIN_HP_003_L30.value,,,,,,지속시간(초)/틱간격(초)/피해%
 Mad,50,unit.Mad.breakthrough_50.desc,CHAIN_HP_001_L50.value,,,,,,,,회복량&피해량 증가% (증분값)
@@ -169,14 +169,14 @@ Police,50,unit.Police.breakthrough_50.desc,CHAIN_BARRICADE_001_L50.params.health
 Police,999,unit.Police.awakening.desc,CHAIN_BARRICADE_001.params.health_percent,CHAIN_BARRICADE_001.params.doll_duration,CHAIN_BARRICADE_AWK.value,CHAIN_BARRICADE_AWK.duration,,,,,방벽HP%/방벽지속시간/보호막%/보호막지속시간
 # Zalts - SKILL_ZALTS_HEAL (용사탄생)
 # Rico - SKILL_RICO_STRIKE (5타 집중타격)
-Rico,0,unit.Rico.skill.desc,CHAIN_RS_001.value,,,,,,,,피해%
+Rico,0,unit.Rico.skill.desc,CHAIN_RS_001.value,CHAIN_RICO_SENSE.params.trigger_hits,CHAIN_RICO_SENSE.params.atk_per_stack,CHAIN_RICO_SENSE.params.aspd_per_stack,CHAIN_RICO_SENSE.params.max_stacks,,,,피해%/발동타수/스택당공%/스택당공속%/최대스택
 Rico,10,unit.Rico.breakthrough_10.desc,CHAIN_RC_L10.value,,,,,,,,공격력%
 Rico,30,unit.Rico.breakthrough_30.desc,CHAIN_RC_L30.value,,,,,,,,사거리(+)
 Rico,50,unit.Rico.breakthrough_50.desc,CHAIN_RC_L50.value,,,,,,,,공격속도%
-Rico,999,unit.Rico.awakening.desc,CHAIN_RS_001_AWK.value,,,,,,,,피해%(각성)
+Rico,999,unit.Rico.awakening.desc,CHAIN_RS_001_AWK.value,CHAIN_RICO_SENSE.params.trigger_hits,CHAIN_RICO_SENSE.params.atk_per_stack,CHAIN_RICO_SENSE.params.aspd_per_stack,CHAIN_RICO_SENSE.params.max_stacks_awakened,,,,피해%(각성)/발동타수/스택당공%/스택당공속%/각성최대스택
 # Zalts - SKILL_ZALTS_HEAL (용사탄생)
-Zalts,0,unit.Zalts.skill.desc,CHAIN_ZH_001.value,CHAIN_ZP_001.value,,,,,,,회복%/쉴드량
-Zalts,10,unit.Zalts.breakthrough_10.desc,CHAIN_ZP_L10.value,,,,,,,,최대체력%
-Zalts,30,unit.Zalts.breakthrough_30.desc,CHAIN_ZP_L30.value,,,,,,,,회복효율%
-Zalts,50,unit.Zalts.breakthrough_50.desc,CHAIN_ZP_L50.value,,,,,,,,방어력%
-Zalts,999,unit.Zalts.awakening.desc,CHAIN_ZH_001_AWK.value,CHAIN_ZP_001_AWK.value,,,,,,,회복%(각성)/쉴드량(각성)
+Zalts,0,unit.Zalts.skill.desc,CHAIN_ZH_001.value,CHAIN_ZALTS_SH_001.value,,,,,,,회복%/쉴드량
+Zalts,10,unit.Zalts.breakthrough_10.desc,CHAIN_ZALTS_L10.value,,,,,,,,최대체력%
+Zalts,30,unit.Zalts.breakthrough_30.desc,CHAIN_ZALTS_L30.value,,,,,,,,회복효율%
+Zalts,50,unit.Zalts.breakthrough_50.desc,CHAIN_ZALTS_L50.value,,,,,,,,방어력%
+Zalts,999,unit.Zalts.awakening.desc,CHAIN_ZH_001_AWK.value,CHAIN_ZALTS_SH_001_AWK.value,,,,,,,회복%(각성)/쉴드량(각성)
