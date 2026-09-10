@@ -1,0 +1,10 @@
+id,use,priority,minPlayCount,clearedStage,requiredFlag,note
+attendance,1,100,2,,,출석체크 팝업
+menu_intro,1,120,2,,,패스/퀘스트/5일도전/3일미션/보급 등장연출
+stagereward,1,130,,2,,스테이지보상 버튼
+leaderboard,1,132,,2,,랭킹 버튼
+autopatrol,1,140,,5,,순찰 버튼
+membership,1,145,,5,,멤버십 버튼
+artifact_tab,1,150,,3,,유물 탭+유물뽑기 튜토리얼
+relicpass,1,155,,,tutorial_artifact_gacha,유물패스 버튼
+contents_tab,1,160,,4,,컨텐츠 탭+골드러쉬 튜토리얼

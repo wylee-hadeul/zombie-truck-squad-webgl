@@ -10,7 +10,7 @@ SKILL_TOXIC_AURA,독성 오라,주변에 풍기는 냄새로 매초 공격력의
 SKILL_CHAINSAW_WHIRLWIND,전기톱 회전,전기톱을 회전시켜 주변 범위에 공격력의 200% 피해,icon_chainsaw,0,0,1,0
 SKILL_BAZOOKA,바주카 포격,3발의 포탄을 발사. 적은 관통하고 벽에 2회 튕김,icon_bazooka,3000,0,1,0
 SKILL_FLASHBANG,섬광탄,적에게 섬광탄을 던져 범위 피해와 2.2초 혼란,icon_flashbang,2000,0,1,0
-SKILL_HEALING_POTION,치유 물약,HP가 낮은 아군 2명에게 약병을 던져 공격력의 150%만큼 회복,icon_healing,2000,0,1,0
+SKILL_HEALING_POTION,중독 물약,전방에 중독 물약을 투척해 범위 피해를 주고 중독(감속+지속 피해)을 부여,icon_healing,2000,0,1,0
 SKILL_TRIPLE_AXEL,트리플 악셀,주변 범위에 공격력의 250% 피해를 입히고 1.5초간 스턴,icon_triple_axel,5000,0,1,0
 SKILL_BASIC_MISSILE,미사일 평타,추적 미사일을 발사하여 공격력의 100% 피해,icon_missile,0,0,1,0
 SKILL_BASIC_ROCKET,로켓 평타,직선 로켓을 발사하여 공격력의 100% 피해,icon_missile,0,0,1,0
@@ -79,3 +79,5 @@ PASSIVE_Rico,타겟확인,5타 공격시 강력한 피해. 적 처치 시 초감
 SKILL_RICO_STRIKE,타겟확인,5타마다 강력한 일격. 공격력의 180% 피해,,0,0,1,0
 SKILL_ZALTS_HEAL,용사탄생,모든 아군의 체력을 자신 최대 HP의 20% 회복. 웨이브 시작시 전체 쉴드 500,icon_healing,2000,0,1,0
 PASSIVE_Zalts,용사의 가호,웨이브 시작시 모든 아군에게 쉴드 제공,,0,0,1,1
+SKILL_BASIC_POLICE,Police Basic,타이리언 기본 공격,icon_basic,0,-1,1,0
+SKILL_BASIC_SAMURAI,Samurai Basic,젠 기본 공격,icon_basic,0,-1,1,0
