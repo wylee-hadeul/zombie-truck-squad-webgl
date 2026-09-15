@@ -6,3 +6,4 @@ null,4,HP_PER,104,icon_stat_hp,1,체력(%값),0
 null,5,ATTACK_SPEED,105,,0,공속증가,10000
 null,6,CRITICAL_DAMAGE,106,,1,치명타 피해,10000
 null,7,CRITICAL_RATE,107,,0,치명타 확률,10000
+null,8,DEFENSE,108,,0,방어력(차감형; 전투력 환산=HP 가중치),33333
