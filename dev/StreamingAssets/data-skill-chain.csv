@@ -124,7 +124,7 @@ CHAIN_BM_002,SKILL_BASIC_MISSILE,2,EFF_VFX_ONLY,0,0,0,on_projectile_hit,ImpactPo
 # SKILL_BASIC_ROCKET - 일반 로켓 평타,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_BR_001,SKILL_BASIC_ROCKET,1,EFF_PROJECTILE,1000000,0,0,instant,CurrentTarget,none,0,10000,always,percent_atk,executor_managed,projectile,,projectile_rocket,missile_launch,1,,0,0,0,,,,,,
 # SKILL_BASIC_ROCKET - 임팩트 VFX,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CHAIN_BR_002,SKILL_BASIC_ROCKET,2,EFF_VFX_ONLY,0,0,0,on_projectile_hit,ImpactPoint,none,0,10000,always,,center_once,,,hit_rocket,,1,,0,0,0,,,,,,
+CHAIN_BR_002,SKILL_BASIC_ROCKET,2,EFF_VFX_ONLY,0,0,0,on_projectile_hit,ImpactPoint,none,0,10000,always,,center_once,,,hit_blast01,,1,,0,0,0,,,,,,
 # SKILL_BASIC_BULLET - 일반 총알 평타,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_BB_001,SKILL_BASIC_BULLET,1,EFF_PROJECTILE,1000000,0,0,instant,CurrentTarget,none,0,10000,always,percent_atk,executor_managed,projectile,,projectile_bullet,gun_fire,1,,0,0,0,,,,,,
 CHAIN_BB_002,SKILL_BASIC_BULLET,2,EFF_VFX_ONLY,0,0,0,on_projectile_hit,ImpactPoint,none,0,10000,always,,center_once,,,hit_bullet,,1,,0,0,0,,,,,,

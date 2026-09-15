@@ -34,6 +34,7 @@ projectile_flash,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Grenade U
 projectile_bullet,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletBlue 1.prefab,20000,10000,false,-3000,2000,0,-180,-90,0,1
 projectile_rocket,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Trail01_Orange 1.prefab,10000,10000,false,-3000,2000,0,,,,1
 hit_rocket,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Trail01_Orange.prefab,10000,10000,false,0,-5000,0,,,,1
+hit_blast01,Assets/_game/Prefabs/VFX/Vfx_HitBlast01.prefab,5500,8000,false,0,0,0,,,,1
 heal_basic,Assets/Polygon Arsenal/Prefabs/Interactive/Healing/HealOnce.prefab,10000,10000,false,0,-3000,0,-90,0,0,1
 instant_heal,Assets/Polygon Arsenal/Prefabs/Interactive/Healing/HealOnce.prefab,10000,10000,false,0,-3000,0,-90,0,0,1
 shield_basic,Assets/Polygon Arsenal/Prefabs/Interactive/Powerups/Icons Holo/PowerIconShield 1.prefab,50000,10000,false,0,0,0,,,,1
@@ -59,6 +60,8 @@ hit_snake,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vf
 projectile_mad,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Trail01_Green 1.prefab,10000,10000,false,0,0,0,,,,1
 hit_mad,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Trail01_Green.prefab,10000,10000,false,0,-5000,0,,,,1
 muzzle_skill,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Muzzle/vfx_Muzzle_Orb04_Yellow 1.prefab,20000,20000,false,0,0,0,,,,1
+muzzle_squad,Assets/_game/Prefabs/VFX/Vfx_MuzzleSquad.prefab,10000,12000,false,0,0,0,,,,1
+muzzle_bazooka,Assets/_game/Prefabs/VFX/Vfx_MuzzleBazooka.prefab,10000,8000,false,0,0,0,,,-12,1
 projectile_bazooka_skill,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Fireball03_Orange 1.prefab,3000,10000,false,-3000,2000,0,,,,1
 hit_bazooka_skill,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Fireball04_Orange.prefab,10000,10000,false,0,-5000,0,,,,1
 enemy_death,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Mini/MiniExploAcid 1.prefab,30000,20000,false,0,0,0,,,,1
