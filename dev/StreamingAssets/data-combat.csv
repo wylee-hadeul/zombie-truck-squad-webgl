@@ -1,0 +1,12 @@
+# 전투 진형/교전 설정 — 만분율 정수(10000 = 1). role=all 이 기본값, 역할 행은 덮어쓰기(빈칸=상속),,,,,,,,,,
+# frontLineOffsetX: 트럭 기준 왼쪽 방어선까지 거리. 이 선을 넘어온 적만 상대한다(부대 공통 — all 행에서만 설정),,,,,,,,,,
+# (원거리 유닛이 자리에 머무는 것은 별도 설정이 아니라 사거리(attackRange)로 자연히 결정된다),,,,,,,,,,
+# visionRange: 이 거리 안의 적만 인지. chaseReturnDelay: 눈앞이 빈 뒤 복귀까지 대기(초),,,,,,,,,,
+# returnSpeedMultiplier: 복귀 이동속도 배율. returnArriveDistance: 복귀 완료 판정 거리,,,,,,,,,,
+# postOffsetX: 트럭 기준 자리 x 거리(사주경계 배치). postGapY: 같은 역할 세로 간격. postMaxColumnHeight: 컬럼 최대 세로,,,,,,,,,,
+# truckSlotCount/truckSlotRadius/truckSlotRingGap/truckSlotArcHalfAngle: 적이 트럭에 붙는 공격 슬롯 배치,,,,,,,,,,
+role,frontLineOffsetX,visionRange,chaseReturnDelay,returnSpeedMultiplier,returnArriveDistance,postOffsetX,postGapY,postMaxColumnHeight,truckSlotCount,truckSlotRadius,truckSlotRingGap,truckSlotArcHalfAngle
+all,95000,100000,5000,20000,3000,,14000,69000,8,10000,6000,75
+Tank,,,,,,45500,,,,,,
+DPS,,,,,,33000,,,,,,
+Support,,,,,,20500,,,,,,

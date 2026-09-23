@@ -1,0 +1,7 @@
+partCode,nameKo,iconName,slotCount,sortOrder
+FireControl,화기 관제소,Icon_Part_FireControl,5,1
+Ammo,탄약고,Icon_Part_Ammo,5,2
+Stimulant,전투 자극기,Icon_Part_Stimulant,5,3
+Armor,방호 장비,Icon_Part_Armor,5,4
+Support,지원 스테이션,Icon_Part_Support,5,5
+Tactical,전술 단말,Icon_Part_Tactical,5,6
