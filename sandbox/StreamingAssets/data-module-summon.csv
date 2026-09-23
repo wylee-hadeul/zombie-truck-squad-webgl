@@ -1,0 +1,8 @@
+key,value,memo
+pityCount,80,천장 카운트. 이 횟수 안에 pityTier 이상 확정
+pityTier,3,천장 확정 등급
+gemCost1,400,보석 1회 소환 비용
+gemCost10,4000,보석 10회 소환 비용
+ticketCost1,1,티켓 1회 소환 비용
+ticketCost10,10,티켓 10회 소환 비용
+adDailyCount,5,광고 소환 일일 횟수
