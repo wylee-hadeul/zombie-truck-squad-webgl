@@ -81,3 +81,8 @@ SKILL_ZALTS_HEAL,용사탄생,모든 아군의 체력을 자신 최대 HP의 20%
 PASSIVE_Zalts,용사의 가호,웨이브 시작시 모든 아군에게 쉴드 제공,,0,0,1,1
 SKILL_BASIC_POLICE,Police Basic,타이리언 기본 공격,icon_basic,0,-1,1,0
 SKILL_BASIC_SAMURAI,Samurai Basic,젠 기본 공격,icon_basic,0,-1,1,0
+SKILL_KELVIN_TACKLE,Round-trip Tackle,전방 대상에게 돌진해 피해를 주고 곧바로 시전 위치로 돌진 복귀하며 귀환 경로에도 피해,icon_shield_charge,5000,-1,1,0
+SKILL_FORTRESS_BARRAGE,Missile Rain,전방에 미사일 24발을 2초 동안 발사. 적중 시 작은 범위 폭발 + 화상,icon_bazooka,3000,0,1,0
+SKILL_BASIC_FORTRESS,Rocket,직선 로켓을 발사하여 공격력의 100% 피해 (포트리스 전용 — 카드 강화 대상),icon_missile,0,0,1,0
+SKILL_BASIC_SIGMA,Rifle Shot,탄환을 발사하여 공격력의 100% 피해 (시그마 전용),,0,0,1,0
+SKILL_SIGMA_FLASH,Tactical Flashbang,적 무리에 섬광탄을 던져 범위 피해와 2초 혼란. 혼란 적은 사거리 안 자기편을 즉시 1회 공격,icon_flashbang,2000,0,1,0

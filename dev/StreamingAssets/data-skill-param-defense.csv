@@ -42,3 +42,4 @@ CHAIN_POLICE_BAR_SH,all,10000,,,,,,,
 CHAIN_RAD_HA_3,,,,,,,,,2
 CHAIN_RAD_SUS_3,,,,,,,,,2
 CHAIN_RAD_SH,all,,,,,,,,
+CHAIN_KELVIN_SHIELD,all,10000,,,,,,,

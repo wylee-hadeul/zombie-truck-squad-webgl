@@ -19,6 +19,7 @@ projectile_fireball_green,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/F
 projectile_proton_purple,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Proton/ProtonMissilePurple.prefab,10000,10000,false,0,0,0,,,,1
 projectile_acid_green,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Liquid/AcidMissile.prefab,15000,10000,false,0,0,0,,,,1
 trail_fire,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Trail.prefab,10000,10000,false,0,0,0,,,,1
+trail_fire_follow,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Fire/CFXR Fire Trail.prefab,10000,9990000,true,0,0,0,,,,1
 trail_lightning_blue,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Trail/SwordTrailLightningBlue.prefab,100000,10000,false,0,0,0,,,,1
 trail_lightning_red,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Trail/SwordTrailFire.prefab,10000,10000,false,0,0,0,,,,1
 debuff_stun,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Stun/Stun1 1.prefab,7000,9990000,true,0,6000,0,,,,1
@@ -84,3 +85,5 @@ hit_ice,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Ice/IceExplosion.
 projectile_nature,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Magic/Nature/NatureMissileGreen.prefab,10000,10000,false,0,0,0,0,-90,0,1
 projectile_amethyst,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Proton/ProtonMissilePink.prefab,10000,10000,false,0,0,0,0,0,0,1
 projectile_shadow,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletPink.prefab,10000,10000,false,0,0,0,0,0,0,1
+zone_fire_ground,Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_GroundFire_Circle.prefab,12000,9990000,true,0,0,0,,,,1
+mine_object,Assets/_game/Prefabs/VFX/Vfx_LandMine.prefab,4500,9990000,true,0,0,0,,,,1
