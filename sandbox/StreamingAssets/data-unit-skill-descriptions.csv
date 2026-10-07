@@ -1,12 +1,12 @@
 unitCode,level,descKey,param0_source,param1_source,param2_source,param3_source,param4_source,param5_source,param6_source,param7_source,notes
 # Bazooka - SKILL_BAZOOKA (바주카 포격)
-Bazooka,0,unit.Bazooka.skill.desc,CHAIN_BAZOOKA_001.params.spread_count,CHAIN_BAZOOKA_001.value,CHAIN_BAZOOKA_001.params.same_target_multiplier@percent,CHAIN_BAZOOKA_002.value,CHAIN_BAZOOKA_002.tickInterval,CHAIN_BAZOOKA_002.duration,,,발사개수/피해%/중복배율/화상피해%/틱간격/화상지속
+Bazooka,0,unit.Bazooka.skill.desc,CHAIN_FORT_MISSILE.params.scatter_count,CHAIN_FORT_MISSILE_BOOM.value,CHAIN_FORT_MISSILE_BURN.value,CHAIN_FORT_MISSILE_BURN.duration,,,,,발사수/착탄 폭발%/화상총량%/화상초 (미사일 폭우 — 포물선 흩뿌리기)
 Bazooka,10,unit.Bazooka.breakthrough_10.desc,CHAIN_BAZOOKA_003_L10.value,,,,,,,,폭발피해% (화상 적 사망 시 폭발)
 Bazooka,30,unit.Bazooka.breakthrough_30.desc,CHAIN_BAZOOKA_001_L30.params.spread_count,,,,,,,,총 발사 개수
 Bazooka,50,unit.Bazooka.breakthrough_50.desc,CHAIN_BAZOOKA_001_L50.params.scale_increment@percent,CHAIN_BAZOOKA_001_L50.params.max_scale@percent_inv,,,,,,크기증가% / 최대크기%
 Bazooka,999,unit.Bazooka.awakening.desc,CHAIN_BAZOOKA_001.value,CHAIN_BAZOOKA_001.params.same_target_multiplier@percent,CHAIN_BAZOOKA_002.value,CHAIN_BAZOOKA_002.tickInterval,CHAIN_BAZOOKA_002.duration,,,피해%/중복배율/화상피해%/틱간격/화상지속 (발사수5는 하드코딩)
 # Runner - SKILL_SHIELD_CHARGE (돌진 방패)
-Runner,0,unit.Runner.skill.desc,CHAIN_SC_001.value,CHAIN_SC_003.value,CHAIN_SC_001.duration,,,,,,보호막%/피해%/지속시간(초)
+Runner,0,unit.Runner.skill.desc,CHAIN_KELVIN_HIT.value,CHAIN_KELVIN_RETURN_HIT.value,,,,,,,전진 피해%/귀환 피해% (왕복 태클)
 Runner,10,unit.Runner.breakthrough_10.desc,CHAIN_SC_005_L10.duration,,,,,,,,스턴 시간(초) - 새로 추가
 Runner,30,unit.Runner.breakthrough_30.desc,CHAIN_SC_001_L30.value,,,,,,,,보호막%(증분값)
 Runner,50,unit.Runner.breakthrough_50.desc,CHAIN_SC_005_L50.duration,,,,,,,,스턴 지속시간(초)
@@ -72,7 +72,7 @@ Martial,30,unit.Martial.breakthrough_30.desc,CHAIN_MARTIAL_L30.value,,,,,,,,공�
 Martial,50,unit.Martial.breakthrough_50.desc,CHAIN_MARTIAL_L50.value,,,,,,,,받는 피해%
 Martial,999,unit.Martial.awakening.desc,CHAIN_MARTIAL_001.value,CHAIN_MARTIAL_AWK.value,,,,,,,,크리확률/크리데미지
 # Squad - SKILL_FLASHBANG (섬광탄)
-Squad,0,unit.Squad.skill.desc,CHAIN_FLASHBANG_002.value,CHAIN_FLASHBANG_003.duration,,,,,,,,피해%/혼란 시간(초)
+Squad,0,unit.Squad.skill.desc,CHAIN_SIGMA_DMG.value,CHAIN_SIGMA_CONFUSE.duration,,,,,,,피해%/혼란 시간(초) (전술 섬광탄)
 Squad,10,unit.Squad.breakthrough_10.desc,CHAIN_FLASHBANG_003_L10.params.attack_speed_bonus,,,,,,,,공격속도 증가%
 Squad,30,unit.Squad.breakthrough_30.desc,CHAIN_FLASHBANG_002_L30.value,,,,,,,,피해% 증가 (증분값)
 Squad,50,unit.Squad.breakthrough_50.desc,CHAIN_FLASHBANG_004_L50.value,CHAIN_FLASHBANG_004_L50.duration,,,,,,공격속도%/지속시간(초)

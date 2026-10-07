@@ -50,3 +50,4 @@ EFF_DOLL_SUMMON,인형 소환,summon,target,enemy,@fixed,0,0,0,arc_height:3|proj
 EFF_BARRICADE_SUMMON,바리케이드 소환,summon,self,any,@fixed,0,0,0,instant_spawn:true|spawn_offset_x:-0.2|doll_duration:10|health_percent:50,1
 EFF_INSTANT_KILL,즉사,instant_kill,target,enemy,@fixed,0,0,0,probability:30|damage_multiplier_boss:100,1
 EFF_DEATH_EXPLOSION_CONDITIONAL,조건부 사망 폭발,death_explosion_conditional,area,enemy,percent_atk,15,0,0,required_debuff:burn|explosion_radius:3,1
+EFF_MINE,지뢰 설치,mine,area,enemy,percent_atk,0,0,0,,1
