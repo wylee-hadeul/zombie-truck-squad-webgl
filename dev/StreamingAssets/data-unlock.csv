@@ -8,3 +8,5 @@ membership,1,145,,5,,멤버십 버튼
 artifact_tab,1,150,,3,,유물 탭+유물뽑기 튜토리얼
 relicpass,1,155,,,tutorial_artifact_gacha,유물패스 버튼
 contents_tab,1,160,,4,,컨텐츠 탭+골드러쉬 튜토리얼
+party_slot_4,1,170,,5,,파티 4번째 슬롯 (1-5 클리어)
+party_slot_5,1,171,,10,,파티 5번째 슬롯 (2-5 클리어)
