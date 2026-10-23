@@ -78,9 +78,9 @@ Squad,30,unit.Squad.breakthrough_30.desc,CHAIN_FLASHBANG_002_L30.value,,,,,,,,�
 Squad,50,unit.Squad.breakthrough_50.desc,CHAIN_FLASHBANG_004_L50.value,CHAIN_FLASHBANG_004_L50.duration,,,,,,공격속도%/지속시간(초)
 Squad,999,unit.Squad.awakening.desc,CHAIN_FLASHBANG_002.value,CHAIN_FLASHBANG_003.duration+CHAIN_FLASHBANG_003_AWK.duration,,,,,,,,피해%/혼란시간(합산)
 # Mad - SKILL_HEALING_POTION (치유 물약)
-Mad,0,unit.Mad.skill.desc,CHAIN_HP_001.params.max_targets,CHAIN_HP_001.value,CHAIN_HP_003_L30.value,CHAIN_HP_003_L30.duration,CHAIN_HP_003_L30.tickInterval,,,,,대상수/착탄%/중독%/중독초/틱초
+Mad,0,unit.Mad.skill.desc,CHAIN_HP_001.params.max_targets,CHAIN_HP_001.value,,,,,,,대상수/착탄%
 Mad,10,unit.Mad.breakthrough_10.desc,CHAIN_HP_002_L10.value,,,,,,,,폭발 피해%
-Mad,30,unit.Mad.breakthrough_30.desc,CHAIN_HP_003_L30.duration,CHAIN_HP_003_L30.tickInterval,CHAIN_HP_003_L30.value,,,,,,지속시간(초)/틱간격(초)/피해%
+Mad,30,unit.Mad.breakthrough_30.desc,CHAIN_HP_004_SLOW.value,CHAIN_HP_004_SLOW.duration,,,,,,,이동속도 감소%(음수)/지속초
 Mad,50,unit.Mad.breakthrough_50.desc,CHAIN_HP_001_L50.value,,,,,,,,회복량&피해량 증가% (증분값)
 Mad,999,unit.Mad.awakening.desc,CHAIN_HP_001.params.max_targets+CHAIN_HP_005_AWK.params.max_targets,CHAIN_HP_001.value,,,,,,,,대상수(합산)/회복%
 # Hacker - SKILL_HACKER_SHIELD (보호막 부여)
@@ -107,12 +107,12 @@ Radian,10,unit.Radian.breakthrough_10.desc,CHAIN_RH_L10.value,,,,,,,,공격속�
 Radian,30,unit.Radian.breakthrough_30.desc,CHAIN_RH_001_L30.value,,,,,,,,회복량 추가%
 Radian,50,unit.Radian.breakthrough_50.desc,CHAIN_RH_001_L50.value,,,,,,,,회복량 추가%
 Radian,999,unit.Radian.awakening.desc,CHAIN_RH_001.value+CHAIN_RH_001_AWK.value,,,,,,,,회복%(합산)
-# Monchesto - SKILL_MONCHESTO_SPIN (리듬 회전격)
-Monchesto,0,unit.Monchesto.skill.desc,CHAIN_MS_001.value,,,,,,,,피해%
+# Monchesto - SKILL_MONCHESTO_BEATDROP (비트 드롭)
+Monchesto,0,unit.Monchesto.skill.desc,CHAIN_MS_001.params.health_percent,CHAIN_MS_001.params.doll_duration,,,,,,,붐박스 체력%/지속초
 Monchesto,10,unit.Monchesto.breakthrough_10.desc,CHAIN_MS_L10.value,,,,,,,,공격력%
 Monchesto,30,unit.Monchesto.breakthrough_30.desc,CHAIN_MS_L30.value,,,,,,,,공격속도%
 Monchesto,50,unit.Monchesto.breakthrough_50.desc,CHAIN_MS_L50.value,,,,,,,,체력%
-Monchesto,999,unit.Monchesto.awakening.desc,CHAIN_MS_001.value+CHAIN_MS_001_AWK.value,CHAIN_MS_002_AWK.duration,,,,,,피해%(합산)/스턴시간
+Monchesto,999,unit.Monchesto.awakening.desc,CHAIN_MS_001_AWK.params.health_percent,CHAIN_MS_001_AWK.params.aura_radius_percent,,,,,,,붐박스 체력%p/범위% (임시 각성)
 # Shutyan - SKILL_SHUTYAN_FRENZY (분노)
 Shutyan,0,unit.Shutyan.skill.desc,CHAIN_SF_001.value,,,,,,,,공격속도%
 Shutyan,10,unit.Shutyan.breakthrough_10.desc,CHAIN_SF_L10.value,,,,,,,,공격력%

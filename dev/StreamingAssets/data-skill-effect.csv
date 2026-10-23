@@ -51,3 +51,5 @@ EFF_BARRICADE_SUMMON,바리케이드 소환,summon,self,any,@fixed,0,0,0,instant
 EFF_INSTANT_KILL,즉사,instant_kill,target,enemy,@fixed,0,0,0,probability:30|damage_multiplier_boss:100,1
 EFF_DEATH_EXPLOSION_CONDITIONAL,조건부 사망 폭발,death_explosion_conditional,area,enemy,percent_atk,15,0,0,required_debuff:burn|explosion_radius:3,1
 EFF_MINE,지뢰 설치,mine,area,enemy,percent_atk,0,0,0,,1
+EFF_TOXIC_ZONE,독성 지대,toxic_zone,area,enemy,percent_atk,0,1,0,,1
+EFF_CLONE_DASH,분신 돌진,clone_dash,target,enemy,@fixed,0,0,0,,1
