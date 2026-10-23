@@ -1,4 +1,4 @@
-enhanceId,locKey,icon,category,role,value1,value2,value3,excludeUnits,incompatible,maxStack,priority,use,scoreTank,scoreDPS,scoreSupport,units,track,slot,statType
+enhanceId,locKey,icon,category,role,value1,value2,value3,excludeUnits,incompatible,maxStack,priority,use,scoreTank,scoreDPS,scoreSupport,units,track,slot,statType,requires,group
 ENH_HP_15,HP_15,tank,stat,all,300000,0,0,,,1,100,1,94,58,84,,,,
 ENH_ATK_10,ATK_10,attack,stat,all,300000,0,0,,,1,100,1,64,97,65,,,,
 ENH_HP_MINUS_ATK_PLUS,HP_MINUS_ATK_PLUS,attack,stat,dps,-250000,500000,0,,ENH_ATK_MINUS_HP_PLUS,1,90,1,0,96,0,,,,
@@ -64,23 +64,14 @@ ENH_POLICE_DMGRED,POLICE_DMGRED,tank,stat,all,100000,0,0,,,1,50,1,50,50,50,Polic
 # 수호 진형: 바리케이드 설치 시 아군 피해 감소 | v1=감소% v2=지속(초),,,,,,,,,,,,,,,,,,,
 ENH_POLICE_GUARD,POLICE_GUARD,duration,skill_change,all,100000,80000,0,,,1,50,1,50,50,50,Police,0,3,
 # 연격: 평타가 같은 적 1회 추가 타격 | v1=추가타 피해%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_COMBO_1,SAM_COMBO_1,attack,skill_change,all,700000,0,0,,,1,50,1,50,50,50,Samurai,1,1,
 # 연격+1: 추가타 피해 증가(합산) | v1=증가%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_COMBO_2,SAM_COMBO_2,attack,skill_change,all,300000,0,0,,,1,50,1,50,50,50,Samurai,1,2,
 # 연격+2: 추가 타격 1회 더 | v1=추가 타격 피해%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_COMBO_3,SAM_COMBO_3,attack,skill_change,all,700000,0,0,,,1,50,1,50,50,50,Samurai,1,3,
 # 검기: 평타 N회마다 관통 검기 발사 | v1=발동 주기(회) v2=검기 피해%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_WAVE_1,SAM_WAVE_1,range,skill_change,all,30000,300000,0,,,1,50,1,50,50,50,Samurai,2,1,
 # 검기+1: 검기 피해 증가(합산) | v1=증가%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_WAVE_2,SAM_WAVE_2,range,skill_change,all,200000,0,0,,,1,50,1,50,50,50,Samurai,2,2,
 # 검기+2: 발사 수 증가 | v1=발사 수(개),,,,,,,,,,,,,,,,,,,
-ENH_SAM_WAVE_3,SAM_WAVE_3,range,skill_change,all,20000,0,0,,,1,50,1,50,50,50,Samurai,2,3,
 # 공격력 증가(스탯) | v1=공격력%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_ATK,SAM_ATK,attack,stat,all,150000,0,0,,,1,50,1,50,50,50,Samurai,0,1,attack
 # 공격속도 증가(스탯) | v1=공격속도%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_ASPD,SAM_ASPD,cooldown,stat,all,150000,0,0,,,1,50,1,50,50,50,Samurai,0,2,attack_speed
 # 발도: 순간참 종료 지점에서 검기 발사 | v1=검기 피해%,,,,,,,,,,,,,,,,,,,
-ENH_SAM_DRAW,SAM_DRAW,special,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Samurai,0,3,
 # 다중 탄환: 20도 각도 추가 탄환 | v1=추가 탄환 피해%,,,,,,,,,,,,,,,,,,,
 ENH_RICO_MULTI_1,RICO_MULTI_1,attack,skill_change,all,800000,0,0,,,1,50,1,50,50,50,Rico,1,1,
 # 공격속도 증가(스탯) | v1=공격속도%,,,,,,,,,,,,,,,,,,,
@@ -118,23 +109,14 @@ ENH_RADIAN_HEALPOW,RADIAN_HEALPOW,heal,stat,all,200000,0,0,,,1,50,1,50,50,50,Rad
 # 보호 회복: 체력의 기원 대상에 보호막 | v1=보호막(공격력%) v2=지속(초),,,,,,,,,,,,,,,,,,,
 ENH_RADIAN_SHIELDHEAL,RADIAN_SHIELDHEAL,special,skill_change,all,800000,50000,0,,,1,50,1,50,50,50,Radian,0,3,
 # 독성 폭발: 평타 광역화+중독 | v1=폭발 피해% (중독 수치는 data-skill-debuff DEBUFF_POISON 공용),,,,,,,,,,,,,,,,,,,
-ENH_MAD_TOXIC_1,MAD_TOXIC_1,special,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Mad,1,1,
 # 독성 폭발+1: 범위 확대 | v1=범위 증가%(표기전용, 실효=체인 areaMultiplier),,,,,,,,,,,,,,,,,,,
-ENH_MAD_TOXIC_2,MAD_TOXIC_2,special,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Mad,1,2,
 # 독성 폭발+2: 평타 피해 증가(스탯 normal_attack — 폭발·중독 자동 연동) | v1=평타 피해%,,,,,,,,,,,,,,,,,,,
-ENH_MAD_TOXIC_3,MAD_TOXIC_3,special,stat,all,300000,0,0,,,1,50,1,50,50,50,Mad,1,3,normal_attack
 # 중독 물약 강화: 물약 3→5개 | v1=물약 개수(개),,,,,,,,,,,,,,,,,,,
-ENH_MAD_POTION_1,MAD_POTION_1,duration,skill_change,all,50000,0,0,,,1,50,1,50,50,50,Mad,2,1,
 # 중독 물약 강화+1: 감속 강화(합산) | v1=감속%(음수=감속),,,,,,,,,,,,,,,,,,,
-ENH_MAD_POTION_2,MAD_POTION_2,duration,skill_change,all,-150000,0,0,,,1,50,1,50,50,50,Mad,2,2,
 # 중독 물약 강화+2: 중독 지속 피해 증가(합산) | v1=증가%,,,,,,,,,,,,,,,,,,,
-ENH_MAD_POTION_3,MAD_POTION_3,duration,skill_change,all,50000,0,0,,,1,50,1,50,50,50,Mad,2,3,
 # 공격 속도 증가(스탯) | v1=공격속도%,,,,,,,,,,,,,,,,,,,
-ENH_MAD_ASPD,MAD_ASPD,cooldown,stat,all,100000,0,0,,,1,50,1,50,50,50,Mad,0,1,attack_speed
 # 공격력 증가(스탯) | v1=공격력%,,,,,,,,,,,,,,,,,,,
-ENH_MAD_ATK,MAD_ATK,attack,stat,all,150000,0,0,,,1,50,1,50,50,50,Mad,0,2,attack
 # 스킬 쿨타임 감소(스탯) | v1=쿨다운 감소%(음수),,,,,,,,,,,,,,,,,,,
-ENH_MAD_CD,MAD_CD,cooldown,stat,all,-100000,0,0,,,1,50,1,50,50,50,Mad,0,3,skill_cooldown
 ENH_KELVIN_BREAK_1,KELVIN_BREAK_1,attack,skill_change,all,1800000,0,0,,,1,50,1,50,50,50,Runner,1,1,
 ENH_KELVIN_BREAK_2,KELVIN_BREAK_2,tank,skill_change,all,10000,0,0,,,1,50,1,50,50,50,Runner,1,2,
 ENH_KELVIN_BREAK_3,KELVIN_BREAK_3,attack,skill_change,all,540000,70000,360000,,,1,50,1,50,50,50,Runner,1,3,
@@ -162,3 +144,48 @@ ENH_SIGMA_TRAP_3,SIGMA_TRAP_3,special,skill_change,all,280000,20000,0,,,1,50,1,5
 ENH_SIGMA_CD,SIGMA_CD,cooldown,stat,all,-100000,0,0,,,1,50,1,50,50,50,Squad,0,1,skill_cooldown
 ENH_SIGMA_ATK,SIGMA_ATK,attack,stat,all,150000,0,0,,,1,50,1,50,50,50,Squad,0,2,attack
 ENH_SIGMA_HP,SIGMA_HP,tank,stat,all,200000,0,0,,,1,50,1,50,50,50,Squad,0,3,health
+ENH_MS_IMPACT,MS_IMPACT,special,skill_change,all,50000,5000,0,,,1,50,1,50,50,50,Monchesto,1,1,,,
+ENH_MS_BATTER,MS_BATTER,attack,skill_change,all,800000,0,0,,,1,50,1,50,50,50,Monchesto,1,2,,ENH_MS_IMPACT,
+ENH_MS_SWING,MS_SWING,special,skill_change,all,30000,0,0,,,1,50,1,50,50,50,Monchesto,1,3,,ENH_MS_BATTER,
+ENH_MS_WIDE,MS_WIDE,tank,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Monchesto,2,1,,,
+ENH_MS_DISCORD,MS_DISCORD,special,skill_change,all,200000,0,0,,,1,50,1,50,50,50,Monchesto,3,1,,ENH_MS_WIDE,
+ENH_MS_DANCE,MS_DANCE,attack,skill_change,all,200000,0,0,,,1,50,1,50,50,50,Monchesto,3,2,,ENH_MS_DISCORD,
+ENH_MS_ENTRY,MS_ENTRY,special,skill_change,all,10000,0,0,,,1,50,1,50,50,50,Monchesto,4,1,,ENH_MS_WIDE,
+ENH_MS_SURROUND,MS_SURROUND,special,skill_change,all,30000,0,0,,,1,50,1,50,50,50,Monchesto,4,2,,ENH_MS_ENTRY,
+ENH_MS_VIBE,MS_VIBE,attack,skill_change,all,200000,0,0,,,1,50,1,50,50,50,Monchesto,5,1,,ENH_MS_WIDE,
+ENH_MS_BLAST,MS_BLAST,attack,skill_change,all,1000000,0,0,,,1,50,1,50,50,50,Monchesto,5,2,,ENH_MS_VIBE,
+ENH_GT_ATK,GT_ATK,attack,stat,tank,100000,0,0,,,1,50,1,50,50,50,,,,attack,,generic_tank
+ENH_GT_ASPD,GT_ASPD,attack,stat,tank,100000,0,0,,,1,50,1,50,50,50,,,,attack_speed,,generic_tank
+ENH_GT_HP,GT_HP,tank,stat,tank,150000,0,0,,,1,50,1,50,50,50,,,,health,,generic_tank
+ENH_GT_DMGRED,GT_DMGRED,tank,stat,tank,80000,0,0,,,1,50,1,50,50,50,,,,damage_reduction,,generic_tank
+ENH_GT_CD,GT_CD,special,stat,tank,100000,0,0,,,1,50,1,50,50,50,,,,skill_cooldown,,generic_tank
+ENH_ZEN_WAVE,ZEN_WAVE,range,skill_change,all,50000,500000,0,,,1,50,1,50,50,50,Samurai,1,1,,,
+ENH_ZEN_SSANGA,ZEN_SSANGA,range,skill_change,all,20000,0,0,,,1,50,1,50,50,50,Samurai,1,2,,ENH_ZEN_WAVE,
+ENH_ZEN_SAKURA,ZEN_SAKURA,range,skill_change,all,250000,0,0,,,1,50,1,50,50,50,Samurai,1,3,,ENH_ZEN_SSANGA,
+ENH_ZEN_BLAST,ZEN_BLAST,attack,skill_change,all,1000000,0,0,,,1,50,1,50,50,50,Samurai,2,1,,ENH_ZEN_WAVE,
+ENH_ZEN_YORAN,ZEN_YORAN,range,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Samurai,2,2,,ENH_ZEN_BLAST,
+ENH_ZEN_ISSEN,ZEN_ISSEN,attack,skill_change,all,1000000,0,0,,,1,50,1,50,50,50,Samurai,3,1,,,
+ENH_ZEN_GALE,ZEN_GALE,range,skill_change,all,1000000,0,0,,,1,50,1,50,50,50,Samurai,3,2,,ENH_ZEN_ISSEN,
+ENH_ZEN_CLONE,ZEN_CLONE,special,skill_change,all,20000,0,0,,,1,50,1,50,50,50,Samurai,3,3,,ENH_ZEN_GALE,
+ENH_ZEN_BIND,ZEN_BIND,special,skill_change,all,20000,0,0,,,1,50,1,50,50,50,Samurai,4,1,,ENH_ZEN_ISSEN,
+ENH_ZEN_DRAIN,ZEN_DRAIN,heal,skill_change,all,100000,100000,0,,,1,50,1,50,50,50,Samurai,4,2,,ENH_ZEN_BIND,
+ENH_ALEX_SPLASH,ALEX_SPLASH,attack,skill_change,all,200000,0,0,,,1,50,1,50,50,50,Mad,1,1,,,
+ENH_ALEX_DOUBLE,ALEX_DOUBLE,range,skill_change,all,20000,0,0,,,1,50,1,50,50,50,Mad,1,2,,ENH_ALEX_SPLASH,
+ENH_ALEX_CORRODE,ALEX_CORRODE,special,skill_change,all,200000,10000,0,,,1,50,1,50,50,50,Mad,1,3,,ENH_ALEX_DOUBLE,
+ENH_ALEX_RESIDUE,ALEX_RESIDUE,special,skill_change,all,300000,30000,0,,,1,50,1,50,50,50,Mad,2,1,,,
+ENH_ALEX_WIDE,ALEX_WIDE,range,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Mad,2,2,,ENH_ALEX_RESIDUE,
+ENH_ALEX_CORPSE,ALEX_CORPSE,attack,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Mad,2,3,,ENH_ALEX_WIDE,
+ENH_ALEX_REMEDY,ALEX_REMEDY,heal,skill_change,all,300000,0,0,,,1,50,1,50,50,50,Mad,3,1,,ENH_ALEX_RESIDUE,
+ENH_ALEX_HARDEN,ALEX_HARDEN,tank,skill_change,all,500000,30000,0,,,1,50,1,50,50,50,Mad,3,2,,ENH_ALEX_REMEDY,
+ENH_ALEX_RELAX,ALEX_RELAX,special,skill_change,all,800000,0,0,,,1,50,1,50,50,50,Mad,4,1,,ENH_ALEX_RESIDUE,
+ENH_ALEX_HALLU,ALEX_HALLU,special,skill_change,all,20000,0,0,,,1,50,1,50,50,50,Mad,4,2,,ENH_ALEX_RELAX,
+ENH_GD_ATK,GD_ATK,attack,stat,dps,100000,0,0,,,1,50,1,50,50,50,,,,attack,,generic_dps
+ENH_GD_ASPD,GD_ASPD,attack,stat,dps,100000,0,0,,,1,50,1,50,50,50,,,,attack_speed,,generic_dps
+ENH_GD_CRIT,GD_CRIT,attack,stat,dps,100000,0,0,,,1,50,1,50,50,50,,,,critical_chance,,generic_dps
+ENH_GD_CRITDMG,GD_CRITDMG,attack,stat,dps,200000,0,0,,,1,50,1,50,50,50,,,,critical_damage,,generic_dps
+ENH_GD_SKILLDMG,GD_SKILLDMG,attack,stat,dps,150000,0,0,,,1,50,1,50,50,50,,,,skill_damage,,generic_dps
+ENH_GS_ATK,GS_ATK,attack,stat,support,100000,0,0,,,1,50,1,50,50,50,,,,attack,,generic_support
+ENH_GS_ASPD,GS_ASPD,attack,stat,support,100000,0,0,,,1,50,1,50,50,50,,,,attack_speed,,generic_support
+ENH_GS_HP,GS_HP,tank,stat,support,150000,0,0,,,1,50,1,50,50,50,,,,health,,generic_support
+ENH_GS_HEAL,GS_HEAL,heal,stat,support,150000,0,0,,,1,50,1,50,50,50,,,,heal_power,,generic_support
+ENH_GS_CD,GS_CD,special,stat,support,100000,0,0,,,1,50,1,50,50,50,,,,skill_cooldown,,generic_support
