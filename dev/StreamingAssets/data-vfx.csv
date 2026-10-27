@@ -87,7 +87,7 @@ projectile_amethyst,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Proton
 projectile_shadow,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletPink.prefab,10000,10000,false,0,0,0,0,0,0,1
 zone_fire_ground,Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_GroundFire_Circle.prefab,12000,9990000,true,0,0,0,,,,1
 mine_object,Assets/_game/Prefabs/VFX/Vfx_LandMine.prefab,4500,9990000,true,0,0,0,,,,1
-zone_toxic_ground,Assets/Polygon Arsenal/Prefabs/Interactive/Zone/Glow/GlowZoneGreen.prefab,8000,9990000,true,0,0,0,-45,,,1
+zone_toxic_ground,Assets/_game/Prefabs/ZoneToxicFlat.prefab,9300,9990000,true,0,0,0,,,,1
 summon_boombox,Assets/_game/Prefabs/Boombox.prefab,10000,9990000,true,0,0,0,,,,1
 projectile_mad_potion,Assets/_game/Prefabs/Projectile_MadPotion.prefab,10000,10000,false,0,0,0,,,,1
 projectile_acid_potion,Assets/_game/Prefabs/Projectile_AcidPotion.prefab,15000,10000,false,0,0,0,,,,1

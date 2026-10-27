@@ -35,7 +35,7 @@ SKILL_BASIC_NATURE,자연탄,자연탄을 발사하여 공격력의 100% 피해,
 SKILL_BASIC_AMETHYST,수정탄,수정탄을 발사하여 공격력의 100% 피해,,0,0,1,0
 SKILL_BASIC_SHADOW,그림자탄,그림자탄을 발사하여 공격력의 100% 피해,,0,0,1,0
 SKILL_RADIAN_HEAL,체력의 기원,팀원 한 명의 체력을 3초에 걸쳐 회복,,2000,0,1,0
-SKILL_MONCHESTO_BEATDROP,비트 드롭,사거리 안 가까운 적에게 붐박스를 던져 범위 안 적을 도발합니다,icon_doll,3000,5,1,0
+SKILL_MONCHESTO_BEATDROP,비트 드롭,사거리 안 가까운 적에게 붐박스를 던져 범위 안 적을 도발합니다,icon_doll,3000,1,1,0
 SKILL_SHUTYAN_FRENZY,분노,본인의 공격속도를 대폭 증가,,0,0,1,0
 SKILL_TURANDO_HEAL,철벽,자신의 체력을 회복,,0,0,1,0
 SKILL_ZETA_PIERCE,찌르기,관통하는 공격,,2000,0,1,0

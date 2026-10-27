@@ -23,4 +23,4 @@ CHAIN_KELVIN_DASH_A3,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_KELVIN_KNOCK,,,,,15000,2500,away,,,,,,,,,,,,,,,,
 CHAIN_KELVIN_RETURN,50000,,5000,,,,,,,,,,,,,,1,1,1,1,10500,2500,
 CHAIN_KELVIN_RETURN_A3,,,,,,,,,,,,,,,,,,,,,,,
-CHAIN_ZEN_CLONE,,,,5000,,,,,,,,,,,,,,,,,,,180000
+CHAIN_ZEN_CLONE,,,,5000,,,,,,,,,,,,,,,,,,,300000
