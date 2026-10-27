@@ -82,3 +82,4 @@ CHAIN_MS_IMPACT,,,,,,,,,,,,,,,,5,,,,,,,,
 CHAIN_MS_SWING,,,,,,,,,,,,,,,,,,,,,,,15000,3
 CHAIN_ZEN_BIND,speed,1,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_ALEX_CORRODE,damage_taken,1,,,,,,,,,,,,,,,,,,,,,,
+CHAIN_ZEN_GALE_BIND,speed,1,,,,,,,,,,,,,,,,,,,,,,
