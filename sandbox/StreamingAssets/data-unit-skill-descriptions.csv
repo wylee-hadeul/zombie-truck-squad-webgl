@@ -168,12 +168,12 @@ Police,30,unit.Police.breakthrough_30.desc,CHAIN_BARRICADE_001_L30.params.doll_d
 Police,50,unit.Police.breakthrough_50.desc,CHAIN_BARRICADE_001_L50.params.health_percent,,,,,,,,방벽HP%
 Police,999,unit.Police.awakening.desc,CHAIN_BARRICADE_001.params.health_percent,CHAIN_BARRICADE_001.params.doll_duration,CHAIN_BARRICADE_AWK.value,CHAIN_BARRICADE_AWK.duration,,,,,방벽HP%/방벽지속시간/보호막%/보호막지속시간
 # Zalts - SKILL_ZALTS_HEAL (용사탄생)
-# Rico - SKILL_RICO_STRIKE (5타 집중타격)
-Rico,0,unit.Rico.skill.desc,CHAIN_RS_001.value,CHAIN_RICO_SENSE.params.trigger_hits,CHAIN_RICO_SENSE.params.atk_per_stack,CHAIN_RICO_SENSE.params.aspd_per_stack,CHAIN_RICO_SENSE.params.max_stacks,,,,피해%/발동타수/스택당공%/스택당공속%/최대스택
+# Rico - SKILL_RICO_STRIKE (비장의 한 발: 5타마다 특수탄)
+Rico,0,unit.Rico.skill.desc,CHAIN_RS_001.value,CHAIN_RICO_SENSE.params.trigger_hits,,,,,,,피해%/발동타수
 Rico,10,unit.Rico.breakthrough_10.desc,CHAIN_RC_L10.value,,,,,,,,공격력%
 Rico,30,unit.Rico.breakthrough_30.desc,CHAIN_RC_L30.value,,,,,,,,사거리(+)
 Rico,50,unit.Rico.breakthrough_50.desc,CHAIN_RC_L50.value,,,,,,,,공격속도%
-Rico,999,unit.Rico.awakening.desc,CHAIN_RS_001_AWK.value,CHAIN_RICO_SENSE.params.trigger_hits,CHAIN_RICO_SENSE.params.atk_per_stack,CHAIN_RICO_SENSE.params.aspd_per_stack,CHAIN_RICO_SENSE.params.max_stacks_awakened,,,,피해%(각성)/발동타수/스택당공%/스택당공속%/각성최대스택
+Rico,999,unit.Rico.awakening.desc,CHAIN_RS_001_AWK.value,CHAIN_RICO_SENSE.params.trigger_hits,,,,,,,추가 피해%(각성)/발동타수
 # Zalts - SKILL_ZALTS_HEAL (용사탄생)
 Zalts,0,unit.Zalts.skill.desc,CHAIN_ZH_001.value,CHAIN_ZALTS_SH_001.value,,,,,,,회복%/쉴드량
 Zalts,10,unit.Zalts.breakthrough_10.desc,CHAIN_ZALTS_L10.value,,,,,,,,최대체력%
