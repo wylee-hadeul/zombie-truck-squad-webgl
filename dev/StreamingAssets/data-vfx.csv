@@ -33,6 +33,7 @@ debuff_confusion,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Stun/Stun2 
 instant_explosion_flash,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/Grenade Utility/FlashGrenadeExplosion.prefab,20000,10000,false,0,0,0,,,,1
 projectile_flash,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Grenade Utility/GrenadeFlash.prefab,30000,10000,false,0,0,0,,,,1
 projectile_bullet,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletBlue 1.prefab,20000,10000,false,-3000,2000,0,-180,-90,0,1
+projectile_bullet_special,Assets/_game/Prefabs/Projectile_BulletSpecial.prefab,30000,10000,false,-3000,2000,0,-180,-90,0,1
 projectile_rocket,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Projectiles/vfx_Projectile_Trail01_Orange 1.prefab,10000,10000,false,-3000,2000,0,,,,1
 hit_rocket,Assets/GabrielAguiarProductions/UniqueProjectilesVol_2/Prefabs/Hits/vfx_Hit_Trail01_Orange.prefab,10000,10000,false,0,-5000,0,,,,1
 hit_blast01,Assets/_game/Prefabs/VFX/Vfx_HitBlast01.prefab,5500,8000,false,0,0,0,,,,1
