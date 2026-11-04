@@ -50,8 +50,10 @@ instant_explosion_boom,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Sci-Fi/N
 buff_invincible,Assets/Polygon Arsenal/Prefabs/Combat/Shield/ShieldBlue 1.prefab,8000,9990000,true,0,1100,0,,,,1
 instant_slash_poison,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Slash/Green/SlashSmallGreen 1.prefab,15000,10000,false,0,0,0,-45,,,1
 buff_attack_speed,Assets/Polygon Arsenal/Prefabs/Interactive/Sparkle/SparkleYellow 1.prefab,20000,9990000,true,0,0,0,-90,,,1
+buff_attack_power,Assets/Polygon Arsenal/Prefabs/Interactive/Sparkle/SparkleRed 1.prefab,20000,9990000,true,0,0,0,-90,,,1
 buff_hypersense,Assets/Polygon Arsenal/Prefabs/Combat/Enchant/LightningEnchantBlue.prefab,10000,9990000,true,0,-3000,0,-90,,,1
 debuff_bleed,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/BloodDebuff.prefab,20000,9990000,true,0,0,0,-90,,,1
+debuff_intimidate,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Debuffs/CurseDebuff.prefab,15000,9990000,true,0,3000,0,-90,,,1
 projectile_doll,Assets/_game/Prefabs/Doll.prefab,10000,9990000,true,0,0,0,,,,1
 summon_doll,Assets/_game/Prefabs/Doll.prefab,10000,30000,false,0,0,0,,,,1
 debuff_taunt,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/CurseMark/CurseMarkRed.prefab,7000,9990000,true,0,6000,0,,,,1
