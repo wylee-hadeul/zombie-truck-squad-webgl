@@ -82,6 +82,7 @@ truck_smoke,Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_GroundFire_Circle.prefab,15
 truck_fire_front,Assets/VFXPACK_FIRE_WALLCOEUR/Prefab/VFX_GroundFire_Circle.prefab,10000,9990000,true,0,0,0,,,,1
 truck_explosion,Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Explosions/CFXR Explosion 2 Bigger.prefab,20000,20000,false,0,0,0,,,,1
 projectile_holy,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Proton/ProtonMissileGreen.prefab,10000,10000,false,0,0,0,0,0,0,1
+projectile_zen_wave,Assets/_game/Prefabs/VFX/ZenWave/Vfx_ZenWave.prefab,10000,10000,false,0,0,0,0,0,0,1
 hit_holy,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Holy/HolyExplosion.prefab,10000,10000,false,0,0,0,-90,,,1
 projectile_ice,Assets/Polygon Arsenal/Prefabs/Combat/Missiles/Sci-Fi/Bullet/BulletPink.prefab,10000,10000,false,0,0,0,0,0,0,1
 hit_ice,Assets/Polygon Arsenal/Prefabs/Combat/Explosions/Magic/Ice/IceExplosion.prefab,10000,10000,false,0,0,0,-90,,,1
