@@ -26,7 +26,7 @@ RAINBOW,Legendary,scaling,300,,,,,cargo.RAINBOW.name,cargo.RAINBOW.desc,1,89
 MAX_RANK,Legendary,system_action,10000,,,,,cargo.MAX_RANK.name,cargo.MAX_RANK.desc,1,97
 STAR,Legendary,system_action,10000,,,,,cargo.STAR.name,cargo.STAR.desc,0,50
 VICTORY,Legendary,scaling,200,,,,,cargo.VICTORY.name,cargo.VICTORY.desc,1,91
-RARE_ATK,Rare,stat_buff,1000,,,,,cargo.RARE_ATK.name,cargo.RARE_ATK.desc,1,65
-RARE_DEF,Rare,stat_buff,500,,,,,cargo.RARE_DEF.name,cargo.RARE_DEF.desc,1,55
-RARE_HP,Rare,stat_buff,1500,,,,,cargo.RARE_HP.name,cargo.RARE_HP.desc,1,62
-RARE_ASPD,Rare,stat_buff,1500,,,,,cargo.RARE_ASPD.name,cargo.RARE_ASPD.desc,1,60
+RARE_ATK,Rare,stat_buff,2000,,,,,cargo.RARE_ATK.name,cargo.RARE_ATK.desc,1,65
+RARE_DEF,Rare,stat_buff,1000,,,,,cargo.RARE_DEF.name,cargo.RARE_DEF.desc,1,55
+RARE_HP,Rare,stat_buff,2000,,,,,cargo.RARE_HP.name,cargo.RARE_HP.desc,1,62
+RARE_ASPD,Rare,stat_buff,1000,,,,,cargo.RARE_ASPD.name,cargo.RARE_ASPD.desc,1,60

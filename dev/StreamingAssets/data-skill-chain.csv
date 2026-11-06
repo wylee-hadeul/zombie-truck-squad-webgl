@@ -54,8 +54,8 @@ CHAIN_ZEN_BIND,SKILL_FLASH_SLASH,3,EFF_BUFF_STAT,-1000000,0,0,on_collision,PathE
 CHAIN_ZEN_GALE_ISSEN,SKILL_FLASH_SLASH,2,EFF_DAMAGE,0,0,0,on_collision,PathEnemies,line,0,20000,always,,,,ENH_ZEN_GALE,,,1,Samurai,0,0,0,,,,,,,
 CHAIN_ZEN_GALE_BIND,SKILL_FLASH_SLASH,3,EFF_BUFF_STAT,0,0,0,on_collision,PathEnemies,line,0,20000,always,,,buff,ENH_ZEN_GALE,,,1,Samurai,0,0,0,,,,,,,
 CHAIN_ZEN_DRAIN,SKILL_FLASH_SLASH,6,EFF_HEAL_DAMAGE_DEALT,0,0,0,instant,Self,none,0,10000,always,,,defense,ENH_ZEN_DRAIN,heal_basic,,1,Samurai,0,0,0,,,,heal_percent,1,,
-CHAIN_ZEN_BLAST,SKILL_FLASH_SLASH,3,EFF_DAMAGE_AREA,0,0,0,instant,TargetArea,circle,20000,10000,always,percent_atk,center_once,strike,ENH_ZEN_BLAST,instant_explosion_flash,core_explosion,1,Samurai,0,0,0,,1,,,,,
-CHAIN_ZEN_YORAN,SKILL_FLASH_SLASH,1,EFF_PROJECTILE,0,0,0,instant,FarthestEnemy,none,0,10000,always,percent_atk,executor_managed,projectile,ENH_ZEN_YORAN,projectile_holy,,1,Samurai,0,0,0,,1,,,,,
+CHAIN_ZEN_BLAST,SKILL_FLASH_SLASH,3,EFF_DAMAGE_AREA,0,0,0,instant,TargetArea,circle,30000,10000,always,percent_atk,center_once,strike,ENH_ZEN_BLAST,instant_explosion_flash,core_explosion,1,Samurai,0,0,0,,1,,,,,
+CHAIN_ZEN_YORAN,SKILL_FLASH_SLASH,1,EFF_PROJECTILE,0,0,0,instant,FarthestEnemy,none,0,10000,always,percent_atk,executor_managed,projectile,ENH_ZEN_YORAN,projectile_zen_wave,,1,Samurai,0,0,0,,1,,,,,
 CHAIN_ZEN_YORAN_SSANGA,SKILL_FLASH_SLASH,1,EFF_PROJECTILE,0,0,0,instant,FarthestEnemy,none,0,10000,always,,,projectile,ENH_ZEN_YORAN,,,1,Samurai,0,0,0,,,,,,,ENH_ZEN_SSANGA
 CHAIN_ZEN_YORAN_SAKURA,SKILL_FLASH_SLASH,1,EFF_PROJECTILE,0,0,0,instant,FarthestEnemy,none,0,10000,always,,,projectile,ENH_ZEN_YORAN,,,1,Samurai,0,0,0,,,,,,,ENH_ZEN_SAKURA
 # SKILL_TRIPLE_AXEL - Triple Axel (범위 피해 + 기절),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -119,7 +119,7 @@ CHAIN_FLASHBANG_004_L50,SKILL_FLASHBANG,4,EFF_BUFF_STAT,800000,30000,0,instant,S
 # SKILL_FLASHBANG - Squad Awakening (혼란 지속시간 +1.3초 · 합산: 2.2초 + 1.3초 = 3.5초),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_FLASHBANG_003_AWK,SKILL_FLASHBANG,3,EFF_CONFUSION,0,13000,0,on_arrival,ImpactArea,circle,40000,10000,always,,,buff,,debuff_confusion,confusion_sound,1,Squad,0,0,1,,,,,,,
 # SKILL_HEALING_POTION - 치유 물약 (HP 낮은 아군 2명에게 투사체 후 범위 회복),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CHAIN_HP_001,SKILL_HEALING_POTION,1,EFF_PROJECTILE_LOB,500000,0,0,instant,NearestEnemy,none,0,10000,always,percent_atk,executor_managed,projectile,,projectile_acid_potion,mad_skill,1,Mad,0,0,0,,,,,,,
+CHAIN_HP_001,SKILL_HEALING_POTION,1,EFF_PROJECTILE_LOB,300000,0,0,instant,NearestEnemy,none,0,10000,always,percent_atk,executor_managed,projectile,,projectile_acid_potion,mad_skill,1,Mad,0,0,0,,,,,,,
 # SKILL_HEALING_POTION - Mad Level 10 (폭발 피해),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_HP_002_L10,SKILL_HEALING_POTION,2,EFF_DAMAGE_AREA,300000,0,0,on_arrival,ImpactArea,circle,30000,10000,always,percent_atk,center_once,,,,core_explosion,1,Mad,0,2,0,,,,,,,
 # SKILL_HEALING_POTION - Mad Level 30 (중독 효과),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -523,15 +523,15 @@ CHAIN_RICO_SPLITSHOT,SKILL_BASIC_RICO,1,EFF_PROJECTILE,-200000,0,0,instant,Curre
 CHAIN_RICO_SHRAPNEL,SKILL_BASIC_RICO,1,EFF_PROJECTILE,0,0,0,instant,CurrentTarget,none,0,10000,always,,,projectile,ENH_RICO_SHRAPNEL,,,1,Rico,0,0,0,,,,split_damage_percent,2,,
 CHAIN_RICO_MAGIC,SKILL_RICO_STRIKE,1,EFF_PROJECTILE,0,0,0,instant,CurrentTarget,none,0,10000,always,,,projectile,ENH_RICO_MAGIC,,,1,Rico,0,0,0,,,,,,,
 CHAIN_RICO_EXPOSE,SKILL_RICO_STRIKE,3,EFF_BUFF_STAT,0,0,0,on_projectile_hit,HitTarget,none,0,10000,always,@fixed,on_each_target,buff,ENH_RICO_EXPOSE,debuff_slow,,1,Rico,0,0,0,,1,2,,,,
-CHAIN_RICO_HE,SKILL_RICO_STRIKE,4,EFF_DAMAGE_AREA,0,0,0,on_projectile_hit,ImpactArea,circle,12000,10000,always,percent_atk,center_once,strike,ENH_RICO_HE,hit_blast01,,1,Rico,0,0,0,,1,,,,,
-CHAIN_RICO_INCEND,SKILL_RICO_STRIKE,5,EFF_DOT_BURN,0,0,10000,on_projectile_hit,ImpactArea,circle,12000,10000,always,percent_atk,on_each_target,buff,ENH_RICO_INCEND,debuff_burn,,1,Rico,0,0,0,,1,2,,,,
+CHAIN_RICO_HE,SKILL_RICO_STRIKE,4,EFF_DAMAGE_AREA,0,0,0,on_projectile_hit,ImpactArea,circle,20000,10000,always,percent_atk,center_once,strike,ENH_RICO_HE,hit_blast01,,1,Rico,0,0,0,,1,,,,,
+CHAIN_RICO_INCEND,SKILL_RICO_STRIKE,5,EFF_DOT_BURN,0,0,10000,on_projectile_hit,ImpactArea,circle,20000,10000,always,percent_atk,on_each_target,buff,ENH_RICO_INCEND,debuff_burn,,1,Rico,0,0,0,,1,2,,,,
 # === Zalts (잘츠) - 서포터: 왕의 가호 + 카드 10장 (게시글 6988552). 카드 효과 중 이벤트형은 ZaltsCards.cs ===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # SKILL_ZALTS_GUARD - 왕의 가호: 주변 아군(자신 포함)에게 공격력 100% 보호막 3초 (같은 시전자 재적용=갱신),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_ZG_SHIELD,SKILL_ZALTS_GUARD,1,EFF_SHIELD,1000000,30000,0,instant,AreaAlly,circle,25000,10000,always,percent_atk,,defense,,shield_basic,core_shield,1,Zalts,0,0,0,,,,,,,
 # 패기 발산: 왕의 가호가 펼쳐질 때 범위 안 적에게 공격력 100% 피해 (값=카드 value1),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_ZG_BURST,SKILL_ZALTS_GUARD,2,EFF_DAMAGE,0,0,0,instant,AreaEnemy,circle,25000,10000,always,percent_atk,,strike,ENH_ZALTS_BURST,hit_holy,,1,Zalts,0,0,0,,1,,,,,
 # 위압감: 패기 발산에 맞은 적 공격력 -20% 3초 (같은 대상 재적용=갱신). 트럭 피해는 고정값이라 영향 없음,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CHAIN_ZG_INTIM,SKILL_ZALTS_GUARD,3,EFF_BUFF_STAT,-200000,30000,0,instant,AreaEnemy,circle,25000,10000,always,@fixed,on_each_target,buff,ENH_ZALTS_INTIMIDATE,debuff_intimidate,,1,Zalts,0,0,0,,,,,,,ENH_ZALTS_BURST
+CHAIN_ZG_INTIM,SKILL_ZALTS_GUARD,3,EFF_BUFF_STAT,-500000,30000,0,instant,AreaEnemy,circle,25000,10000,always,@fixed,on_each_target,buff,ENH_ZALTS_INTIMIDATE,debuff_intimidate,,1,Zalts,0,0,0,,,,,,,ENH_ZALTS_BURST
 # 영향력: 왕의 가호 범위 +50% — 같은 병합 키 체인의 areaMultiplier(15000=1.5배)가 곱해짐. 카드 value1(50%)과 맞출 것,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_ZG_INFL_SH,SKILL_ZALTS_GUARD,1,EFF_SHIELD,0,0,0,instant,AreaAlly,circle,0,15000,always,percent_atk,,,ENH_ZALTS_INFLUENCE,,,1,Zalts,0,0,0,,,,,,,
 CHAIN_ZG_INFL_BU,SKILL_ZALTS_GUARD,2,EFF_DAMAGE,0,0,0,instant,AreaEnemy,circle,0,15000,always,percent_atk,,strike,ENH_ZALTS_INFLUENCE,,,1,Zalts,0,0,0,,,,,,,ENH_ZALTS_BURST
@@ -548,7 +548,7 @@ CHAIN_ZB_SWORD_HIT,SKILL_BASIC_ZALTS,2,EFF_DAMAGE,0,0,0,instant,CurrentTarget,no
 CHAIN_POLICE_BASIC_1,SKILL_BASIC_POLICE,1,EFF_DAMAGE,1000000,0,0,instant,CurrentTarget,none,0,10000,always,percent_atk,,,,hit_basic,,1,Police,0,0,0,,,,,,,
 CHAIN_SAM_BASIC_1,SKILL_BASIC_SAMURAI,1,EFF_DAMAGE,1000000,0,0,instant,CurrentTarget,none,0,10000,always,percent_atk,,,,hit_basic,,1,Samurai,0,0,0,,,,,,,
 # SKILL_BASIC_SAMURAI - 젠 카드 (10-21 개편): 검기(5타마다 관통 검기)·쌍아(2갈래)·앵화(첫 적중 시 분열),,,,,,,,,,,,,,,,,,,0,,,,,,,,,,,
-CHAIN_ZEN_WAVE,SKILL_BASIC_SAMURAI,4,EFF_PROJECTILE,0,0,0,every_n_basic_attacks,CurrentTarget,none,0,10000,always,percent_atk,executor_managed,projectile,ENH_ZEN_WAVE,projectile_holy,,1,Samurai,0,0,0,,2,,trigger_every_n,1,,
+CHAIN_ZEN_WAVE,SKILL_BASIC_SAMURAI,4,EFF_PROJECTILE,0,0,0,every_n_basic_attacks,CurrentTarget,none,0,10000,always,percent_atk,executor_managed,projectile,ENH_ZEN_WAVE,projectile_zen_wave,,1,Samurai,0,0,0,,2,,trigger_every_n,1,,
 CHAIN_ZEN_SSANGA,SKILL_BASIC_SAMURAI,4,EFF_PROJECTILE,0,0,0,every_n_basic_attacks,CurrentTarget,none,0,10000,always,,,projectile,ENH_ZEN_SSANGA,,,1,Samurai,0,0,0,,,,spread_count,1,,
 CHAIN_ZEN_SAKURA,SKILL_BASIC_SAMURAI,4,EFF_PROJECTILE,0,0,0,every_n_basic_attacks,CurrentTarget,none,0,10000,always,,,projectile,ENH_ZEN_SAKURA,,,1,Samurai,0,0,0,,,,split_damage_percent,1,,
 CHAIN_POLICE_PUSH_1,SKILL_BASIC_POLICE,2,EFF_KNOCKBACK,0,0,0,every_n_basic_attacks,CurrentTarget,none,0,10000,always,,,movement,ENH_POLICE_PUSH_1,,,1,Police,0,0,0,,,,trigger_every_n,1,,
