@@ -95,3 +95,5 @@ zone_toxic_ground,Assets/_game/Prefabs/ZoneToxicFlat.prefab,9300,9990000,true,0,
 summon_boombox,Assets/_game/Prefabs/Boombox.prefab,10000,9990000,true,0,0,0,,,,1
 projectile_mad_potion,Assets/_game/Prefabs/Projectile_MadPotion.prefab,10000,10000,false,0,0,0,,,,1
 projectile_acid_potion,Assets/_game/Prefabs/Projectile_AcidPotion.prefab,15000,10000,false,0,0,0,,,,1
+debuff_root,Assets/Polygon Arsenal/Prefabs/Combat/Curses & Debuffs/Curse/ZombifyCurse 1.prefab,13000,9990000,true,0,-4300,0,-69.1,,,1
+huma_spin_slash,Assets/Polygon Arsenal/Prefabs/Combat/Melee & Sword/Sword Slash/Purple/SlashWidePurple 1.prefab,21000,10000,false,0,1700,0,-58,,,1

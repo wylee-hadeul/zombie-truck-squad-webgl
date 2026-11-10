@@ -137,12 +137,11 @@ Modoo,10,unit.Modoo.breakthrough_10.desc,CHAIN_MDS_L10.value,,,,,,,,체력%
 Modoo,30,unit.Modoo.breakthrough_30.desc,5,,,,,,,,쿨타임 감소% (고정값)
 Modoo,50,unit.Modoo.breakthrough_50.desc,20,,,,,,,,공격속도% (고정값)
 Modoo,999,unit.Modoo.awakening.desc,CHAIN_MDS_001.value+CHAIN_MDS_001_AWK.value,,,,,,,,쉴드%(합산)
-# Huma - SKILL_HUMA_FRENZY (내면개방)
-Huma,0,unit.Huma.skill.desc,CHAIN_HF_001.value,CHAIN_HF_002.value,,,,,,,공속%/이속%
-Huma,10,unit.Huma.breakthrough_10.desc,CHAIN_HF_L10.value,,,,,,,,체력%
-Huma,30,unit.Huma.breakthrough_30.desc,5,,,,,,,,쿨타임 감소% (고정값)
-Huma,50,unit.Huma.breakthrough_50.desc,20,,,,,,,,공격속도% (고정값)
-Huma,999,unit.Huma.awakening.desc,CHAIN_HF_001.value+CHAIN_HF_001_AWK.value,CHAIN_HF_002.value+CHAIN_HF_002_AWK.value,,,,,,,공속%(합산)/이속%(합산)
+# Huma - SKILL_HUMA_SPIN (회전 베기, 각성 없음)
+Huma,0,unit.Huma.skill.desc,CHAIN_HS_SPIN.value,,,,,,,,피해%(공격력)
+Huma,10,unit.Huma.breakthrough_10.desc,CHAIN_HUMA_L10.value,,,,,,,,최대체력%
+Huma,30,unit.Huma.breakthrough_30.desc,CHAIN_HUMA_L30.value,,,,,,,,공격력%
+Huma,50,unit.Huma.breakthrough_50.desc,CHAIN_HUMA_L50.value,,,,,,,,공격속도%
 # Scalar - SKILL_SCALAR_BUFF (응원 구호)
 Scalar,0,unit.Scalar.skill.desc,CHAIN_SCB_001.value,,,,,,,,공격력 증가%
 Scalar,10,unit.Scalar.breakthrough_10.desc,CHAIN_SCB_L10.value,,,,,,,,체력%
