@@ -40,7 +40,8 @@ SKILL_SHUTYAN_FRENZY,분노,본인의 공격속도를 대폭 증가,,0,0,1,0
 SKILL_TURANDO_HEAL,철벽,자신의 체력을 회복,,0,0,1,0
 SKILL_ZETA_PIERCE,찌르기,관통하는 공격,,2000,0,1,0
 SKILL_MODOO_SHIELD,방어지원,아군 전체에게 쉴드 부여,,3000,0,1,0
-SKILL_HUMA_FRENZY,내면개방,공격속도와 이동속도를 대폭 증가,,0,0,1,0
+SKILL_HUMA_SPIN,회전 베기,제자리에서 회전하며 주변 범위의 적에게 공격력 100% 피해,icon_basic,2000,0,1,0
+SKILL_HUMA_VACUUM,진공참,회전 베기마다 랜덤한 방향으로 관통 충격파 (카드 전용),icon_basic,0,0,1,0
 SKILL_SCALAR_BUFF,응원 구호,아군 1명의 공격력을 대폭 증가,,2000,0,1,0
 SKILL_SERVENTINA_FRENZY,광폭화,공격속도 흡혈률 이동속도를 대폭 증가,,0,0,1,0
 SKILL_ANDREW_STRIKE,타켓지정,단일 타겟에게 공격력의 280% 피해,,3000,0,1,0
@@ -82,6 +83,7 @@ SKILL_BASIC_POLICE,Police Basic,타이리언 기본 공격,icon_basic,0,-1,1,0
 SKILL_BASIC_SAMURAI,Samurai Basic,젠 기본 공격,icon_basic,0,-1,1,0
 SKILL_BASIC_MONCHESTO,Monchesto Basic,몬케스토 기본 공격,icon_basic,0,-1,1,0
 SKILL_BASIC_ZALTS,Zalts Basic,잘츠 기본 공격 (사기 충전·왕국 검법),icon_basic,0,-1,1,0
+SKILL_BASIC_HUMA,Huma Basic,휴마 기본 공격 (도끼질·베어넘기기),icon_basic,0,-1,1,0
 SKILL_KELVIN_TACKLE,Round-trip Tackle,전방 대상에게 돌진해 피해를 주고 곧바로 시전 위치로 돌진 복귀하며 귀환 경로에도 피해,icon_shield_charge,5000,-1,1,0
 SKILL_FORTRESS_BARRAGE,Missile Rain,전방에 미사일 24발을 2초 동안 발사. 적중 시 작은 범위 폭발 + 화상,icon_bazooka,3000,0,1,0
 SKILL_BASIC_FORTRESS,Rocket,직선 로켓을 발사하여 공격력의 100% 피해 (포트리스 전용 — 카드 강화 대상),icon_missile,0,0,1,0
