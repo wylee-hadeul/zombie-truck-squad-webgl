@@ -1,6 +1,7 @@
-# 텍스트 덮어쓰기: Localization.csv와 같은 key를 넣으면 그 문구가 우선 적용됨 (CDN 업로드만으로 반영, 빌드 불필요)
-# 언어 칸이 비어 있으면 그 언어는 원래 문구 사용. Localization.csv 행을 그대로 복사해 붙여도 됨(Id 칸은 무시). 줄바꿈은 \n
-# 확정된 문구는 Localization.csv로 옮기고 여기서 지울 것
+# 텍스트 덮어쓰기: Localization.csv와 같은 key를 넣으면 그 문구가 우선 적용됨 (CDN 업로드만으로 반영,빌드 불필요),,,,
+# 언어 칸이 비어 있으면 그 언어는 원래 문구 사용. Localization.csv 행을 그대로 복사해 붙여도 됨(Id 칸은 무시). 줄바꿈은 \n,,,,,
+# 확정된 문구는 Localization.csv로 옮기고 여기서 지울 것,,,,,
 key,English(en),Korean(ko),Japanese(ja),Chinese (Traditional)(zh-Hant),Chinese (Simplified)(zh-Hans)
-# 예시) 로비 스테이지 이름 아래 "웨이브 (n/n)" 문구를 바꾸는 행. 맨 앞 #을 지우면 적용됨 ({0}/{1} 같은 자리표시는 그대로 둘 것)
+"# 예시) 로비 스테이지 이름 아래 ""웨이브 (n/n)"" 문구를 바꾸는 행. 맨 앞 #을 지우면 적용됨 ({0}/{1} 같은 자리표시는 그대로 둘 것)",,,,,
 #lobby.wave_progress,[TEST] Wave ({0}/{1}),[테스트] 웨이브 ({0}/{1}),[TEST] ウェーブ ({0}/{1}),[TEST] 波次 ({0}/{1}),[TEST] 波次 ({0}/{1})
+enhance.ZEN_GALE.name,Gale,질풍,疾風,大風,大风

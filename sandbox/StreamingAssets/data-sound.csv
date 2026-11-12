@@ -23,6 +23,7 @@ turn_tshirts,Assets/_game/Sound/effect/turn_tshirts.wav,10000,1
 switch_char,Assets/_game/Sound/effect/switch.wav,10000,1
 equip_btn,Assets/_game/Sound/effect/equip_btn.wav,10000,1
 skill_charge,Assets/_game/Sound/effect/skill_charge.wav,10000,1
+use_skill,Assets/_game/Sound/effect/sfx_use_skill.mp3,10000,1
 find_relic,Assets/_game/Sound/effect/skillActived.wav,10000,1
 bgm_content_1,Assets/_game/Sound/City Day Lobby.mp3,8000,1
 bgm_content_2,Assets/_game/Sound/String Remix Battle.mp3,8000,1

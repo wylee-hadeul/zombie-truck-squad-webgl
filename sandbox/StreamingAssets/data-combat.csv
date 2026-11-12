@@ -3,7 +3,7 @@
 # rangedFrontLineOffsetX: 원거리 영웅(사거리 attackRange 2 이상) 방어선. 비면 frontLineOffsetX (all 행에서만 설정),,,,,,,,,,,,,,,,,,
 # visionRange: 이 거리 안의 적만 인지. chaseReturnDelay: 눈앞이 빈 뒤 복귀까지 대기(초),,,,,,,,,,,,,,,,,,
 # returnSpeedMultiplier: 복귀 이동속도 배율. returnArriveDistance: 복귀 완료 판정 거리,,,,,,,,,,,,,,,,,,
-# postFrontOffsetX/postBackOffsetX: 진형 앞줄·뒷줄 x 거리(트럭 기준). 덱을 탱→근접딜→원거리딜→서포터로 세워 앞3·뒤2(4명 2·2, 3명 2·1),,,,,,,,,,,,,,,,,,
+# postFrontOffsetX/postBackOffsetX: 진형 앞줄·뒷줄 x 거리(트럭 기준). 덱을 탱→근접딜→원거리딜→서포터로 세워 앞3·뒤2(4명 2·2,3명 2·1),,,,,,,,,,,,,,,,,
 # postOffsetX(역할 행): 진형 미사용 시 폴백 · postGapY: 진형 세로 간격,,,,,,,,,,,,,,,,,,
 # truckSlotCount/truckSlotRadius/truckSlotRingGap/truckSlotArcHalfAngle: 적이 트럭에 붙는 공격 슬롯 배치,,,,,,,,,,,,,,,,,,
 # battleExpPerLevel: 전투 레벨업 필요 경험치. battleExpPerWave: 웨이브당 총 경험치(몬스터 수로 나눠 분배),,,,,,,,,,,,,,,,,,
