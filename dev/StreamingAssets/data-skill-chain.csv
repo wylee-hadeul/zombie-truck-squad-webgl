@@ -394,7 +394,7 @@ CHAIN_HS_TYPHOON,SKILL_HUMA_SPIN,2,EFF_PULL,0,0,0,instant,HitEnemies,none,0,1000
 CHAIN_HUMA_L10,SKILL_HUMA_SPIN,0,EFF_BUFF_STAT,100000,9990000,0,once_on_spawn,Self,none,0,10000,always,,,buff,,buff_stat,core_buff,1,Huma,0,2,0,,,,,,,
 CHAIN_HUMA_L30,SKILL_HUMA_SPIN,0,EFF_BUFF_STAT,150000,9990000,0,once_on_spawn,Self,none,0,10000,always,,,buff,,buff_stat,core_buff,1,Huma,0,5,0,,,,,,,
 CHAIN_HUMA_L50,SKILL_HUMA_SPIN,0,EFF_BUFF_STAT,200000,9990000,0,once_on_spawn,Self,none,0,10000,always,,,buff,,buff_stat,core_buff,1,Huma,0,8,0,,,,,,,
-# SKILL_HUMA_VACUUM - 진공참: 회전 베기마다 랜덤 방향 관통 충격파 (젠 검기와 같은 이펙트·크기, 피해=카드 value1). HumaCards가 회전마다 실행,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# SKILL_HUMA_VACUUM - 진공참: 회전 베기마다 랜덤 방향 관통 충격파 (젠 검기와 같은 이펙트·크기,피해=카드 value1). HumaCards가 회전마다 실행,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_HV_WAVE,SKILL_HUMA_VACUUM,1,EFF_PROJECTILE,0,0,0,instant,Self,none,0,10000,always,percent_atk,executor_managed,projectile,ENH_HUMA_VACUUM,projectile_zen_wave,,1,Huma,0,0,0,,1,,,,,
 # SKILL_BASIC_HUMA - 기본 공격 (근접 단일 100%). 베어넘기기는 처치 시 HumaCards.OnKill,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_HB_BASIC,SKILL_BASIC_HUMA,1,EFF_DAMAGE,1000000,0,0,instant,CurrentTarget,none,0,10000,always,percent_atk,,,,hit_basic,,1,Huma,0,0,0,,,,,,,
