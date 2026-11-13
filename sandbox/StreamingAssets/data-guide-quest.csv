@@ -1,0 +1,16 @@
+mission_id,use,mission_type,target_value,goal,description_key,progress_type,reward_type,reward_amount,guide_type,guide_target,note
+guide_001,1,stage_clear,1,1,guide.quest.stage_clear,state,lumen,2000,highlight,lobby_play,첫 전투(1-1 5웨이브). 다음 영웅 레벨업 1회에 충분한 골드 지급.
+guide_002,1,hero_enhance,,1,guide.quest.hero_enhance,action,lumen,1500,open,hero,다음 특성 강화 1회분 골드 지급. 재활성화 후 행동 1회만 집계.
+guide_003,1,trait_enhance,,1,guide.quest.trait_enhance,action,lumen,500,open,trait,초반 유일한 특성 강화 가이드. 계정 1레벨에서 접근 가능한 초기 노드 기준.
+guide_004,1,stage_clear,2,1,guide.quest.stage_clear,state,lumen,500,highlight,lobby_play,1-2 보상 후 별 보상 UI 해금 (clearedStage=2).
+guide_005,1,stage_star_claim,,1,guide.quest.stage_star_claim,state,link_contract_normal,1,open,stage_reward,별 보상 1회 수령. 다음 영웅 소환 재화 지급.
+guide_006,1,hero_summon,,1,guide.quest.hero_summon,action,lumen,2500,open,hero_summon,다음 영웅 레벨업 1회분 골드.
+guide_007,1,hero_enhance,,1,guide.quest.hero_enhance,action,lumen,500,open,hero,소환 직후 영웅 성장. 임의 영웅 레벨업 허용.
+guide_008,1,stage_clear,3,1,guide.quest.stage_clear,state,lumen,2200,highlight,lobby_play,다음 영웅 레벨업 1회분 골드.
+guide_009,1,hero_enhance,,1,guide.quest.hero_enhance,action,lumen,500,open,hero,스테이지 재도전 전 추가 성장 1회.
+guide_010,1,stage_clear,4,1,guide.quest.stage_clear,state,artifact_decoder,1,highlight,lobby_play,1-4 해금 유물 탭.
+guide_011,1,artifact_summon,,1,guide.quest.artifact_summon,action,lumen,3000,open,artifact_summon,유물 소환. 다음 영웅 레벨업 1회분 골드.
+guide_012,1,hero_enhance,,1,guide.quest.hero_enhance,action,lumen,500,open,hero,유물 소환 후 성장 1회.
+guide_013,1,stage_clear,5,1,guide.quest.stage_clear,state,link_contract_normal,10,highlight,lobby_play,1-5 해금 파티 4번 슬롯.
+guide_014,1,hero_summon,,10,guide.quest.hero_summon,action,lumen,2500,open,hero_summon,10연차 1회로 완료.
+guide_015,1,party_member_count,,4,guide.quest.party_member_count,state,lumen,3000,open,party,파티에 영웅 4명 배치. 현재 상태 판정.
