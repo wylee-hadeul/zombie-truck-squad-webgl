@@ -22,7 +22,7 @@ EFF_BUFF_SPEED,이동속도 버프,buff_stat,target,ally,percent,50,1,0,stat_typ
 EFF_BUFF_ATTACK_SPEED,공격속도 버프,buff_stat,target,ally,percent,50,1,0,stat_type:attack_speed|stackable:false|refresh_on_apply:true,1
 EFF_STUN,기절,stun,target,enemy,@fixed,0,1,0,break_on_damage:false|diminishing_returns:true|min_duration:0.5,1
 EFF_PROJECTILE_BOX,박스 투사체,projectile_box,self,any,@fixed,0,0,0,box_width:1|box_height:5|projectile_speed:10|hit_once:true,1
-EFF_KNOCKBACK,넉백,knockback,target,enemy,@fixed,0,0,0,knockback_distance:3|knockback_duration:0.5|knockback_direction:left,1
+EFF_KNOCKBACK,넉백,knockback,target,enemy,@fixed,0,0,0,knockback_distance:3|knockback_duration:0.5|knockback_direction:forward,1
 EFF_SLOW,둔화,slow,target,enemy,percent,50,1,0,stackable:false|refresh_on_apply:true,1
 EFF_AIRBORNE,에어본,airborne,target,enemy,@fixed,3,1,0,height:3|fall_damage:50|gravity_scale:2,1
 EFF_PUSH,밀치기,push,target,enemy,@fixed,5,0,0,push_speed:10|stop_at_wall:true|damage_on_wall_hit:100,1
