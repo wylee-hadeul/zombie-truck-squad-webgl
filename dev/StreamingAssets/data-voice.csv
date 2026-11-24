@@ -1,0 +1,26 @@
+voiceId,trigger,clipKey,priority,waveNo,hpRate,countTh,windowSec,use,해설
+1,StageStart,voice_stage_start,1,0,0,0,0,1,전투 시작 시 1회
+2,WaveNormal,voice_wave_normal_1,3,0,0,0,0,1,일반 웨이브 시작 시 1회(패턴 랜덤)
+2,WaveNormal,voice_wave_normal_2,3,0,0,0,0,1,일반 웨이브 시작 시 1회(패턴 랜덤)
+3,WaveMid,voice_wave_mid_1,2,8,0,0,0,1,waveNo 웨이브 시작 시 1회(패턴 랜덤)
+3,WaveMid,voice_wave_mid_2,2,8,0,0,0,1,waveNo 웨이브 시작 시 1회(패턴 랜덤)
+4,WaveLate,voice_wave_late_1,2,13,0,0,0,1,waveNo 웨이브 시작 시 1회(패턴 랜덤)
+4,WaveLate,voice_wave_late_2,2,13,0,0,0,1,waveNo 웨이브 시작 시 1회(패턴 랜덤)
+5,EnhanceRoulette,voice_enhance_roulette,1,0,0,0,0,1,강화 룰렛 등장
+6,HeroDeath,voice_hero_death,3,0,0,0,0,1,영웅 사망 시
+7,HeroRevive,voice_hero_revive,3,0,0,0,0,1,영웅 부활 시
+8,TruckFirstHit,voice_truck_hit,3,0,0,0,0,1,트럭이 최초로 피해를 입을 때
+9,TruckHpLow,voice_truck_hp_low,2,0,3000,0,0,1,트럭 HP가 hpRate 이하 최초 도달 시
+10,BossMidAppear,voice_boss_mid_appear,2,0,0,0,0,1,중간 보스 출현 시(마지막 웨이브가 아닌 보스)
+11,BossFinalAppear,voice_boss_final_appear,2,0,0,0,0,1,마지막 보스 출현 시(마지막 웨이브)
+12,SuddenDeath,voice_sudden_death,2,0,0,0,0,1,서든 데스 발동
+13,BossHpLow,voice_boss_hp_low,2,0,3000,0,0,1,보스 HP가 hpRate 이하 최초 도달 시(보스 1마리당 1회)
+14,BossMidKill,voice_boss_mid_kill,1,0,0,0,0,1,중간 보스 처치 시
+15,StageWin,voice_stage_win,1,0,0,0,0,1,스테이지 클리어 확정 시
+16,StageLose,voice_stage_lose,1,0,0,0,0,1,트럭 HP 0 도달로 패배 확정 시
+17,StageGiveUp,voice_stage_giveup,1,0,0,0,0,1,유저가 전투 포기를 눌렀을 때
+18,IdleCheer,voice_idle_cheer,3,0,5000,0,150000,1,windowSec 동안 보이스가 없고 HP가 hpRate 이하인 영웅/트럭이 없을 때
+19,ZombieSwarm,voice_zombie_swarm_1,3,0,0,30,0,1,필드 생존 좀비가 countTh 이상 최초 도달 시(패턴 랜덤)
+19,ZombieSwarm,voice_zombie_swarm_2,3,0,0,30,0,1,필드 생존 좀비가 countTh 이상 최초 도달 시(패턴 랜덤)
+20,MultiKill,voice_multi_kill,3,0,0,15,10000,1,windowSec 내에 좀비 countTh 마리 이상 처치 시
+0,RadioSwitch,voice_radio_switch,0,0,0,0,0,1,보이스가 교체될 때 사이에 끼워 넣는 무전 효과음(상황 트리거가 아님)
