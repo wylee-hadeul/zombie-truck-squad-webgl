@@ -211,3 +211,13 @@ ENH_GS_ASPD,GS_ASPD,attack,stat,support,300000,0,0,,,1,50,1,50,50,50,,,,attack_s
 ENH_GS_HP,GS_HP,tank,stat,support,300000,0,0,,,1,50,1,50,50,50,,,,health,,generic_support,10000,0
 ENH_GS_HEAL,GS_HEAL,heal,stat,support,500000,0,0,,,1,50,1,50,50,50,,,,heal_power,,generic_support,10000,0
 ENH_GS_CD,GS_CD,special,stat,support,150000,0,0,,,1,50,1,50,50,50,,,,skill_cooldown,,generic_support,10000,0
+ENH_BLAKE_CALC,BLAKE_CALC,attack,skill_change,all,30000,0,0,,,1,50,1,50,50,50,Hacker,1,1,,,,10000,80
+ENH_BLAKE_DOUBLETAP,BLAKE_DOUBLETAP,attack,skill_change,all,20000,200000,0,,,1,50,1,50,50,50,Hacker,1,2,,ENH_BLAKE_CALC,,10000,76
+ENH_BLAKE_CHAINRX,BLAKE_CHAINRX,special,skill_change,all,50000,0,0,,,1,50,1,50,50,50,Hacker,1,3,,ENH_BLAKE_DOUBLETAP,,10000,74
+ENH_BLAKE_REGROUP,BLAKE_REGROUP,heal,skill_change,all,500000,0,0,,,1,50,1,50,50,50,Hacker,2,1,,ENH_BLAKE_CALC,,10000,72
+ENH_BLAKE_CRITMASS,BLAKE_CRITMASS,special,skill_change,all,1000000,0,0,,,1,50,1,50,50,50,Hacker,2,2,,ENH_BLAKE_REGROUP,,10000,70
+ENH_BLAKE_BALLISTIC,BLAKE_BALLISTIC,attack,skill_change,all,10000,0,0,,,1,50,1,50,50,50,Hacker,3,1,,,,10000,78
+ENH_BLAKE_ACCEL,BLAKE_ACCEL,attack,skill_change,all,300000,0,0,,,1,50,1,50,50,50,Hacker,3,2,,ENH_BLAKE_BALLISTIC,,10000,75
+ENH_BLAKE_WEAKNESS,BLAKE_WEAKNESS,attack,skill_change,all,300000,0,0,,,1,50,1,50,50,50,Hacker,3,3,,ENH_BLAKE_ACCEL,,10000,73
+ENH_BLAKE_FIELD,BLAKE_FIELD,range,skill_change,all,0,0,0,,,1,50,1,50,50,50,Hacker,4,1,,ENH_BLAKE_BALLISTIC,,10000,71
+ENH_BLAKE_WARD,BLAKE_WARD,tank,skill_change,all,1000000,0,0,,,1,50,1,50,50,50,Hacker,4,2,,ENH_BLAKE_FIELD,,10000,68
