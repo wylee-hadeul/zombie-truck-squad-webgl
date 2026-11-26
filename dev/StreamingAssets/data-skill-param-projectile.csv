@@ -1,4 +1,4 @@
-chainId,box_width,box_height,start_offset_x,start_offset_y,projectile_speed,projectile_direction,hit_once,max_distance,area_increase,spread_count,spread_angle,pierce_enemy,wall_bounce,same_target_multiplier,scale_on_hit,scale_increment,max_scale,spread_count_bonus,arc_height,explosion_radius,max_targets,projectile_interval,impact_vfx,impact_sound,rotation_speed,initial_angle,homing_delay,max_lifetime,skip_hit_vfx,follow_target,max_travel_distance,hit_radius,scale_animation,show_range_indicator,scatter_count,scatter_radius,trigger_every_n,skip_projectile_wait,per_hit_chains,spread_side_damage_percent,scatter_fill,lead_target,split_count,split_angle,split_damage_percent,split_scale,no_direct_damage,burst_at_max_confidence,burst_interval,pierce_all_at_max_focus,split_max_targets,burst_count
+chainId,box_width,box_height,start_offset_x,start_offset_y,projectile_speed,projectile_direction,hit_once,max_distance,area_increase,spread_count,spread_angle,pierce_enemy,wall_bounce,same_target_multiplier,scale_on_hit,scale_increment,max_scale,spread_count_bonus,arc_height,explosion_radius,max_targets,projectile_interval,impact_vfx,impact_sound,rotation_speed,initial_angle,homing_delay,max_lifetime,skip_hit_vfx,follow_target,max_travel_distance,hit_radius,scale_animation,show_range_indicator,scatter_count,scatter_radius,trigger_every_n,skip_projectile_wait,per_hit_chains,spread_side_damage_percent,scatter_fill,lead_target,split_count,split_angle,split_damage_percent,split_scale,no_direct_damage,burst_at_max_confidence,burst_interval,pierce_all_at_max_focus,split_max_targets,burst_count,ricochet_range,ricochet_last_crit
 CHAIN_WP_001,10000,20000,-10000,0,40000,forward,1,200000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_WP_001_L50,10000,25000,-10000,0,40000,forward,1,200000,250000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_BAZOOKA_001,,,,,80000,,,,,3,150000,1,2,2500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -59,3 +59,7 @@ CHAIN_RICO_SPLITSHOT,,,,,,,,,,2,150000,,,,,,,,,,,,,,,75000,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_RICO_SHRAPNEL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,300000,250000,6000,,,,,1
 CHAIN_RICO_MAGIC,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 CHAIN_HV_WAVE,,,,,100000,random,,,,,,1,,,,,,,,,,,,,,,,,,,80000,5000,,,,,,,,,,,,,,,,,,,
+CHAIN_BBK_001,,,,,120000,,,,,,,,,,,,,,,,,,,,,,,,1,0,100000,2500,,,,,,,,,,,,,,,,,,,,,,
+CHAIN_BLAKE_CALC,,,,,120000,,,,,,,,,,,,,,,,,,,,,,,,1,0,100000,2500,,,,,,,,,,,,,,,,,,,,,0,
+CHAIN_BLAKE_DOUBLETAP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1200,,,,,
+CHAIN_BLAKE_CHAINRX,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1

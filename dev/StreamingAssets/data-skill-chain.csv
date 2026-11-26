@@ -617,3 +617,24 @@ CHAIN_SIGMA_CONFUSE_A3,SKILL_SIGMA_FLASH,3,EFF_CONFUSION,0,0,0,on_arrival,Impact
 CHAIN_SIGMA_MINE,SKILL_SIGMA_FLASH,30,EFF_MINE,0,0,0,periodic,Self,circle,12000,10000,always,percent_atk,,summon,ENH_SIGMA_TRAP_1,mine_object,explosion_sound,1,Squad,0,0,0,,1,,cooldown,2,,
 CHAIN_SIGMA_MINE_B2,SKILL_SIGMA_FLASH,30,EFF_MINE,0,0,0,periodic,Self,none,0,10000,always,,,summon,ENH_SIGMA_TRAP_2,,,1,Squad,0,0,0,,,,mine_count,1,,
 CHAIN_SIGMA_MINE_B3,SKILL_SIGMA_FLASH,30,EFF_MINE,0,0,0,periodic,Self,none,0,10000,always,,,summon,ENH_SIGMA_TRAP_3,,,1,Squad,0,0,0,,1,,root_duration,2,,
+# SKILL_BASIC_BLAKE - 블레이크 사격 (원거리 투사체). 카드 체인은 같은 seq1에 겹쳐 병합된다,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CHAIN_BBK_001,SKILL_BASIC_BLAKE,1,EFF_PROJECTILE,1000000,0,0,instant,CurrentTarget,none,0,10000,always,percent_atk,executor_managed,projectile,,projectile_bullet,gun_fire,1,,0,0,0,,,,,,,
+CHAIN_BBK_002,SKILL_BASIC_BLAKE,2,EFF_VFX_ONLY,0,0,0,on_projectile_hit,ImpactPoint,none,0,10000,always,,center_once,,,hit_bullet,,1,,0,0,0,,,,,,,
+# SKILL_BASIC_BLAKE - 카드. 완벽한 계산이 기본 체인을 대체(탄환 VFX 교체)하고 나머지는 겹쳐 합산된다,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CHAIN_BLAKE_CALC,SKILL_BASIC_BLAKE,1,EFF_PROJECTILE,1000000,0,0,instant,CurrentTarget,none,0,10000,always,percent_atk,executor_managed,projectile,ENH_BLAKE_CALC,projectile_bullet_special,gun_fire,1,Hacker,0,0,0,CHAIN_BBK_001,,,ricochet_count,1,,
+CHAIN_BLAKE_DOUBLETAP,SKILL_BASIC_BLAKE,1,EFF_PROJECTILE,-200000,0,0,instant,CurrentTarget,none,0,10000,always,,,projectile,ENH_BLAKE_DOUBLETAP,,,1,Hacker,0,0,0,,,,burst_count,1,,
+CHAIN_BLAKE_CHAINRX,SKILL_BASIC_BLAKE,1,EFF_PROJECTILE,0,0,0,instant,CurrentTarget,none,0,10000,always,,,projectile,ENH_BLAKE_CHAINRX,,,1,Hacker,0,0,0,,,,ricochet_count,1,,
+CHAIN_BLAKE_REGROUP,SKILL_BASIC_BLAKE,3,EFF_HEAL,500000,0,0,on_critical_hit,LowestHpPercentAlly,none,0,10000,always,percent_atk,,,ENH_BLAKE_REGROUP,heal_basic,heal_sfx,1,Hacker,0,0,0,,1,,,,,
+CHAIN_BLAKE_CRITMASS,SKILL_BASIC_BLAKE,4,EFF_DAMAGE_AREA,1000000,0,0,on_critical_hit,ImpactArea,circle,15000,10000,always,percent_atk,center_once,strike,ENH_BLAKE_CRITMASS,hit_blast01,,1,Hacker,0,0,0,,1,,,,,
+# SKILL_BLAKE_QED - Q.E.D.: 주변 아군 공격력 50% 4초. 카드가 같은 seq에 효과를 더한다,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CHAIN_BQ_001,SKILL_BLAKE_QED,1,EFF_BUFF_STAT,500000,40000,0,instant,AreaAlly,circle,50000,10000,always,,on_each_target,buff,,buff_qed_bulb,haker_skill,1,Hacker,0,0,0,,,,,,,
+# 전장 장악: 같은 그룹에 더 큰 반경을 얹어 병합 시 최대 반경(아군 전체)이 선택되게 한다,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CHAIN_BQ_FIELD_A,SKILL_BLAKE_QED,1,EFF_BUFF_STAT,0,0,0,instant,AreaAlly,circle,990000,10000,always,,on_each_target,buff,ENH_BLAKE_FIELD,,,1,Hacker,0,0,0,,,,,,,
+CHAIN_BLAKE_BALLISTIC,SKILL_BLAKE_QED,2,EFF_BUFF_STAT,10000,40000,0,instant,AreaAlly,circle,50000,10000,always,,on_each_target,buff,ENH_BLAKE_BALLISTIC,,,1,Hacker,0,0,0,,,,,,,
+CHAIN_BQ_FIELD_B,SKILL_BLAKE_QED,2,EFF_BUFF_STAT,0,0,0,instant,AreaAlly,circle,990000,10000,always,,on_each_target,buff,ENH_BLAKE_FIELD,,,1,Hacker,0,0,0,,,,,,,ENH_BLAKE_BALLISTIC
+CHAIN_BLAKE_ACCEL,SKILL_BLAKE_QED,3,EFF_BUFF_STAT,300000,40000,0,instant,AreaAlly,circle,50000,10000,always,,on_each_target,buff,ENH_BLAKE_ACCEL,buff_attack_speed,,1,Hacker,0,0,0,,1,,,,,
+CHAIN_BQ_FIELD_C,SKILL_BLAKE_QED,3,EFF_BUFF_STAT,0,0,0,instant,AreaAlly,circle,990000,10000,always,,on_each_target,buff,ENH_BLAKE_FIELD,,,1,Hacker,0,0,0,,,,,,,ENH_BLAKE_ACCEL
+CHAIN_BLAKE_WEAKNESS,SKILL_BLAKE_QED,4,EFF_BUFF_STAT,300000,40000,0,instant,AreaAlly,circle,50000,10000,always,,on_each_target,buff,ENH_BLAKE_WEAKNESS,,,1,Hacker,0,0,0,,1,,,,,
+CHAIN_BQ_FIELD_D,SKILL_BLAKE_QED,4,EFF_BUFF_STAT,0,0,0,instant,AreaAlly,circle,990000,10000,always,,on_each_target,buff,ENH_BLAKE_FIELD,,,1,Hacker,0,0,0,,,,,,,ENH_BLAKE_WEAKNESS
+CHAIN_BLAKE_WARD,SKILL_BLAKE_QED,5,EFF_SHIELD,1000000,40000,0,instant,AreaAlly,circle,50000,10000,always,percent_atk,on_each_target,defense,ENH_BLAKE_WARD,shield_basic,buff_restore,1,Hacker,0,0,0,,1,,,,,
+CHAIN_BQ_FIELD_E,SKILL_BLAKE_QED,5,EFF_SHIELD,0,0,0,instant,AreaAlly,circle,990000,10000,always,percent_atk,on_each_target,defense,ENH_BLAKE_FIELD,,,1,Hacker,0,0,0,,,,,,,ENH_BLAKE_WARD
