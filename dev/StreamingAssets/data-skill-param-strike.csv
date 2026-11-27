@@ -42,3 +42,6 @@ CHAIN_HS_SPIN,,,,,,10000,99,,,,,,,,,,,20000,1
 CHAIN_HS_WIDE,,,,,,10000,99,,,,,,,,,,,,
 CHAIN_HB_AXE,,,,,,10000,10,,,,,,,,,,,,1
 CHAIN_BLAKE_CRITMASS,,,,,,10000,,,,,,,,,,,,,
+CHAIN_RICO_BIGBORE,,,,,,,,,,,,,,,1,,,,
+CHAIN_ALEX_DIFFUSE,,,,,,10000,10,,,,,,,,1,,,,
+CHAIN_MS_FLURRY,,,,,,,,,,1,25000,2000,,1,,,,,
