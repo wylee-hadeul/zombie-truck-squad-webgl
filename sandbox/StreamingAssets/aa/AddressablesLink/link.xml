@@ -2,24 +2,12 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CFX_DemoReactivator" preserve="all" />
     <type fullname="CFX_LightCurves" preserve="all" />
-    <type fullname="LayerLab.ArtMaker.CharacterPrefabData" preserve="all" />
-    <type fullname="LayerLab.ArtMaker.PartsManager" preserve="all" />
     <type fullname="PolygonArsenal.PolygonLightFade" preserve="all" />
     <type fullname="PolygonArsenal.PolygonSoundSpawn" preserve="all" />
-    <type fullname="LayerLab.ArtMaker.CharacterPrefabData/ColorPickerPositionData" preserve="nothing" serialized="true" />
-    <type fullname="LayerLab.ArtMaker.CharacterPrefabData/SkinPartData" preserve="nothing" serialized="true" />
-    <type fullname="LayerLab.ArtMaker.CharacterPrefabData/SlotColorData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="CFXRRuntime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="CartoonFX.CFXR_Effect" preserve="all" />
     <type fullname="CartoonFX.CFXR_Effect/CameraShake" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
-    <type fullname="Spine.Unity.SkeletonDataAsset" preserve="all" />
-    <type fullname="Spine.Unity.SpineAtlasAsset" preserve="all" />
-    <type fullname="Spine.Unity.BlendModeMaterials" preserve="nothing" serialized="true" />
-    <type fullname="Spine.Unity.SkeletonRenderer/SpriteMaskInteractionMaterials" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -49,14 +37,11 @@
     <type fullname="UnityEngine.Light" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
-    <type fullname="UnityEngine.MeshFilter" preserve="all" />
-    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
-    <type fullname="UnityEngine.TextAsset" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
