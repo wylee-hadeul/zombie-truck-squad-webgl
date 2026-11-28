@@ -70,3 +70,5 @@ enemy_spawn,Assets/_game/Sound/effect/poly_shoot_skull.wav,10000,1
 truck_explosion,Assets/Polygon Arsenal/Sound/Wav/poly_explosion_medium2.wav,10000,1
 new_content_reveal,Assets/_game/Sound/effect/skillActived.wav,10000,1
 new_content_move,Assets/_game/Sound/effect/jump_DM-CGS-47.wav,7000,1
+blake_qed,Assets/Epic Toon FX/Sound/etfx_explosion_minimagic2.wav,10000,1
+zombie_ground_hit,Assets/Polygon Arsenal/Sound/Wav/poly_shoot01.wav,10000,1
